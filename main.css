@@ -5,6 +5,10 @@ body {
     padding: 0 320px;
 }
 
+img{
+    width: 100%;
+}
+
 p {
     font-family: acumin-pro, sans-serif;
     font-weight: 400;
@@ -15,7 +19,9 @@ h1, h2, h3, a, .happening p {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3 {}
+h1, h2, h3 {
+    font-weight: bold;
+}
 
 button {
     /* 背景色を透明にする */
