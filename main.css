@@ -47,6 +47,10 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
 }
 
 /* JSONの範囲 */
+header{
+    width: 1440px;
+height: 50px;
+}
 .header__top-link-logo__img{
 width: 38px;
 height: 13px;
@@ -54,6 +58,7 @@ height: 13px;
 .header__worldnews-img{
     width: 1220px;
     height: 600px;
+    background: 
 }
 .header__links{
 }
