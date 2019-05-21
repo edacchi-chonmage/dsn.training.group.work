@@ -10,6 +10,7 @@
 
 <body>
   <header>
+
     <a href="header__top-link-logo"><img src="assets/logo.png" alt="LOGO" class="header__top-link-logo__img"></a>
     <nav class="globalnavigation"></nav>
       <ul class="header__links">
@@ -19,7 +20,7 @@
         <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
-    <button class="header__person"><img src="assets/person.png" alt="person" class="header__person-img"></button>
+    <button><img src="assets/person.png" alt="person" class="header__person-img"></button>
   </header>
   <main>
     <!-- TODO mainとの関連はクラス名に書かなくて良い -->
@@ -65,178 +66,190 @@
       </ul>
     </section>
     <div class="wrapper">
-      <section class="main__trending">
-        <h2 class="main__trending__title column--title">TRENDING</h2>
-        <ul class="main__tranding__articles">
-          <li class="main__tranding__articles__item">
-            <button class="main__trending__articles__item__button">
-              <section class="main__trending__articles__item__button__section">
-                <img src="assets/miniThumbnail.png" alt="" class="main__trending__articles__item__button__section__img">
-                <div class="main__trending__articles__item__button__section__texts-wrapper">
-                  <h3 class="main__trending__articles__item__button__section__title item--title">Dolore magna aliqua</h3>
-                  <p class="main__trending__articles__item__button__section__discription discription--para">Lorem ipsum
+      <section class="trending">
+        <header class="trending__title-control">
+          <h2 class="trending__title column--title">TRENDING</h2>
+          <nav class="trending__control">
+            <button>&lt;</button>
+            <button>&gt;</button>
+          </nav>
+        </header>
+        <ul class="trending__articles">
+          <li>
+            <a class="trending__articles__link">
+              <article>
+                <img src="assets/miniThumbnail.png" alt="" class="trending__articles__link__img">
+                <div class="trending__articles__link__body">
+                  <h3>Dolore magna aliqua</h3>
+                  <p>Lorem ipsum
                     dolor
                     sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                  <time class="main__trending__articles__item__button__section__time times"
-                    datatime="2011-11-18T14:54:39.929Z">2m ago</time>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">2m ago</time>
                 </div>
-              </section>
-            </button>
+              </article>
+            </a>
           </li>
-          <li class="main__tranding__articles__item">
-            <button class="main__trending__articles__item__button">
-              <section class="main__trending__articles__item__button__section">
-                <img src="assets/miniThumbnail2.png" alt="" class="main__trending__articles__item__button__section__img">
-                <div class="main__trending__articles__item__button__section__texts-wrapper">
-                  <h3 class="main__trending__articles__item__button__section__title item--title">Morbi eleifend a libero</h3>
-                  <p class="main__trending__articles__item__button__section__discription discription--para">Lorem ipsum
+          <li>
+            <a class="trending__articles__link">
+              <article>
+                <img src="assets/miniThumbnail2.png" alt="" class="trending__articles__link__img">
+                <div class="trending__articles__link__body">
+                  <h3>Morbi eleifend a libero</h3>
+                  <p>Lorem ipsum
                     dolor
                     sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                  <time class="main__trending__articles__item__button__section__time times"
-                    datatime="2011-11-18T14:54:39.929Z">1h ago</time>
-                </div>
-              </section>
-            </button>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">1h ago</time>
+                </div>>
+              </article>
+            </a>
           </li>
-          <li class="main__tranding__articles__item">
-            <button class="main__trending__articles__item__button">
-              <section class="main__trending__articles__item__button__section">
-                <img src="assets/miniThumbnail3.png" alt="" class="main__trending__articles__item__button__section__img">
-                <div class="main__trending__articles__item__button__section__texts-wrapper">
-                  <h3 class="main__trending__articles__item__button__section__title item--title">Morbi eleifend a libero</h3>
-                  <p class="main__trending__articles__item__button__section__discription discription--para">Lorem ipsum
-                    dolor
-                    sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                  <time class="main__trending__articles__item__button__section__time times"
-                    datatime="2011-11-18T14:54:39.929Z">3h ago</time>
-                </div>
-              </section>
-            </button>
+          <li>
+            <a class="trending__articles__link">
+              <article>
+                <img src="assets/miniThumbnail3.png" alt="" class="trending__articles__link__img">
+                <h3>Morbi eleifend a libero</h3>
+                <p>Lorem ipsum
+                  dolor
+                  sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <time class="times" datatime="2011-11-18T14:54:39.929Z">3h ago</time>
+              </article>
+            </a>
           </li>
         </ul>
-        <nav class="main__trending__navigator">
-          <button class="main__trending__navitor__item--back">&lt;</button>
-          <button class="main__trending__navitor__item--next">&gt;</button>
-        </nav>
       </section>
-      <section class="main__happening-now">
-        <h2 class="main__happening-now__title column--title">HAPPENING NOW</h2>
-        <ul class="main__happening-now__large-articles">
-          <li class="main__happening-now__large-articles__item">
-            <section class="main__happening-now__large-articles__item__wrapper">
-              <p class="main__happening-now__large-articles__item__category">CITY</p>
-              <h3 class="main__happening-now__large-articles__item__title item--title">Large article title</h3>
-              <p class="mian__happening-now__large-articles__item__discription discription--para">Lorem ipsum dolor sit
-                amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum
-                vis eu, inermis eloquentiam.</p>
-              <time class="mian__happening-now__large-articles__item__time times" datatime="2011-11-18T14:54:39.929Z">2m
-                ago</time>
-            </section>
+      <section class="happening-now">
+        <header class="happening-now__title-control">
+          <h2 class="happening-now__title column--title">HAPPENING NOW</h2>
+          <nav class="happening-now__control">
+            <button>&lt;</button>
+            <button>&gt;</button>
+          </nav>
+        </header>
+        <ul class="happening-now__articles happening-now__articles--display_large">
+          <li>
+            <a href="#" class="happening-now__articles__link">
+              <article class="happening-now__articles__item">
+                <p class="happening-now__articles__category">CITY</p>
+                <h3>Large article title</h3>
+                <div class="happening-noe__articles__wrapper__body">
+                  <p>Lorem ipsum dolor sit
+                    amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+                    voluptatum
+                    vis eu, inermis eloquentiam.</p>
+                </div>
+                <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
+                  ago</time>
+              </article>
+            </a>
           </li>
-          <li class="main__happening-now__large-articles__item">
-            <section class="main__happening-now__large-articles__item__wrapper">
-              <p class="main__happening-now__large-articles__item__category">TRAVEL</p>
-              <h3 class="main__happening-now__large-articles__item__title item--title">Large article title</h3>
-              <p class="mian__happening-now__large-articles__item__discription discription--para">Lorem ipsum dolor sit
-                amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum
-                vis eu, inermis eloquentiam.</p>
-              <time class="mian__happening-now__large-articles__item__time times" datatime="2011-11-18T14:54:39.929Z">2m
-                ago</time>
-            </section>
+          <li>
+            <a href="#" class="happening-now__articles__link">
+              <article class="happening-now__articles__item">
+                <p class="happening-now__articles__category">TRAVEL</p>
+                <h3>Large article title</h3>
+                <div class="happening-noe__articles__wrapper__body">
+                  <p>Lorem ipsum dolor sit
+                    amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+                    voluptatum
+                    vis eu, inermis eloquentiam.</p>
+                </div>
+                <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
+                  ago</time>
+              </article>
+            </a>
           </li>
         </ul>
-        <ul class="main__happening-now__small-articles">
-          <li class="main__happening-now__small-articles__item">
-            <section class="main__happening-now__small-articles__item__wrapper">
-              <div><img class="main__happening-now__small-articles__item__img" src="" alt=""></div>
-              <h3 class="main__happening-now__small-articles__item__title item--title">Small title</h3>
-              <p class="mian__happening-now__small-articles__item__time-contri">
-                <time class="mian__happening-now__small-articles__item__time times"
-                  datatime="2011-11-18T14:54:39.929Z">3h
-                  ago</time>
-                by <a class="mian__happening-now__small-articles__item__contri" href="">Worldnews</a>
-              </p>
-            </section>
+        <ul class="happening-now__articles happening-now__articles--display_small">
+          <li>
+            <a href="#" class="happening-now__articles__link">
+              <article class="happening-now__articles__item">
+                <div><img src="" alt=""></div>
+                <h3>Small title</h3>
+                <p>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
+                    ago</time>
+                  by <a href="">Worldnews</a>
+                </p>
+              </article>
+            </a>a>
           </li>
-          <li class="main__happening-now__small-articles__item">
-            <section class="main__happening-now__small-articles__item__wrapper">
-              <div><img class="main__happening-now__small-articles__item__img" src="" alt=""></div>
-              <h3 class="main__happening-now__small-articles__item__title item--title">Small title</h3>
-              <p class="mian__happening-now__small-articles__item__time-contri">
-                <time class="mian__happening-now__small-articles__item__time times"
-                  datatime="2011-11-18T14:54:39.929Z">4h
-                  ago</time>
-                by <a class="mian__happening-now__small-articles__item__contri" href="">Days</a>
-              </p>
-            </section>
+          <li>
+            <a href="#" class="happening-now__articles__link">
+              <article class="happening-now__articles__item">
+                <div><img src="" alt=""></div>
+                <h3>Small title</h3>
+                <p>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">4h
+                    ago</time>
+                  by <a href="">Days</a>
+                </p>
+              </article>
+            </a>
           </li>
-          <li class="main__happening-now__small-articles__item">
-            <section class="main__happening-now__small-articles__item__wrapper">
-              <div><img class="main__happening-now__small-articles__item__img" src="" alt=""></div>
-              <h3 class="main__happening-now__small-articles__item__title item--title">Small title</h3>
-              <p class="mian__happening-now__small-articles__item__time-contri">
-                <time class="mian__happening-now__small-articles__item__time times"
-                  datatime="2011-11-18T14:54:39.929Z">3h
-                  ago</time>
-                by <a class="mian__happening-now__small-articles__item__contri" href="">Monica</a>
-              </p>
-            </section>
+          <li>
+            <a href="#" class="happening-now__articles__link">
+              <article class="happening-now__articles__item">
+                <div><img src="" alt=""></div>
+                <h3>Small title</h3>
+                <p>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
+                    ago</time>
+                  by <a href="">Monica</a>
+                </p>
+              </article>
+            </a>
           </li>
         </ul>
-        <nav class="main__happening-now__navigator">
-          <button class="main__happening__navitor__item--back">&lt;</button>
-          <button class="main__happening__navitor__item--next">&gt;</button>
-        </nav>
       </section>
     </div>
   </main>
 
   <footer>
     <nav class="footer__nav">
-      <a href="" class="footer__nav__logo"><img src="assets/LOGO.png" alt="LOGO" class="footer__nav__logo--img"></a>
-      <ul class="footer__nav__links">
-        <li class="footer__nav__links__item">Home</li>
-        <li class="footer__nav__links__item">Discovery</li>
-        <li class="footer__nav__links__item">Photos</li>
-        <li class="footer__nav__links__item">Contact</li>
-        <li class="footer__nav__links__item">About</li>
-        <li class="footer__nav__links__item">Help</li>
-        <li class="footer__nav__links__item">Terms</li>
-        <li class="footer__nav__links__item">Guidlines</li>
-        <li class="footer__nav__links__item">Testimonials</li>
-        <li class="footer__nav__links__item">Advertise</li>
-        <li class="footer__nav__links__item">Integrations</li>
-        <li class="footer__nav__links__item">Careers</li>
+      <a href="" class="footer__nav__logo"><img src="assets/LOGO.png" alt="LOGO"></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Discovery</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Guidlines</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Advertise</a></li>
+        <li><a href="#">Integrations</a></li>
+        <li><a href="#">Careers</a></li>
       </ul>
     </nav>
     <section class="footer__contact">
       <form action="" class="footer__contact__email" method="post">
-        <input type="email" name="emnail" class="footer__contact__email__input">
-        <button class="footer__contact__email__button__send"></button>
+        <input type="email" name="emnail">
+        <button></button>
       </form>
-      <p class="footer__contact__para">Stay in touch with us for the freshest products!</p>
+      <p>Stay in touch with us for the freshest products!</p>
     </section>
     <section class="footer__socialLinks">
-      <ul class="footer__socialLinks">
-        <li class="footer__socialLinks__item">
-          <button class="footer__socialLinks__item__button">
-            <img src="assets/instagram.png" alt="instagramでシェア" class="footer__socialLinks__item__button__img">
-            <button>
+      <ul class="footer__socialLinks__list">
+        <li>
+          <a href="#" class="footer__socialLinks__link">
+            <img src="assets/instagram.png" alt="instagramでシェア">
+            <a>
         </li>
-        <li class="footer__socialLinks__item">
-          <button class="footer__socialLinks__item__button">
-            <img src="assets/twitter.png" alt="twitterでシェア" class="footer__socialLinks__item__button__img">
-            <button>
+        <li>
+          <a href="#" class="footer__socialLinks__link">
+            <img src="assets/twitter.png" alt="twitterでシェア">
+            <a>
         </li>
-        <li class="footer__socialLinks__item">
-          <button class="footer__socialLinks__item__button">
-            <img src="assets/facebook.png" alt="facebookでシェア" class="footer__socialLinks__item__button__img">
-          </button>
+        <li>
+          <a href="#" class="footer__socialLinks__link">
+            <img src="assets/facebook.png" alt="facebookでシェア">
+          </a>
         </li>
-        <li class="footer__socialLinks__item">
-          <button class="footer__socialLinks__item__button">
-            <img src="assets/web.png" alt="webでシェア" class="footer__socialLinks__item__img">
-          </button>
+        <li>
+          <a href="#" class="footer__socialLinks__link">
+            <img src="assets/web.png" alt="webでシェア">
+          </a>
         </li>
       </ul>
     </section>
