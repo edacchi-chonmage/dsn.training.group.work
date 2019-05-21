@@ -11,12 +11,12 @@
 <body>
   <header>
     <a href="header__top-link-logo"><img src="assets/logo.png" alt="LOGO" class="header__top-link-logo__img"></a>
-    <nav groval>
+    <nav class="globalnavigation"></nav>
       <ul class="header__links">
         <li><a href="#">HOME</a></li>
         <li><a href="#">DISCOVERY</a></li>
-        <li >PHOTOS</li>
-        <li >CONTACT</li>
+        <li><a href="#">PHOTOS</a></li>
+        <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
     <button class="header__person"><img src="assets/person.png" alt="person" class="header__person-img"></button>
@@ -24,35 +24,43 @@
   <main>
     <!-- TODO mainとの関連はクラス名に書かなくて良い -->
     <!-- TODO セレクタでなるべく工夫すると良いよ -->
-    <section class="main__worldnews">
-      <h1 class="main__worldnews__title">WORLD NEWS</h1>
+    <section class="worldnews">
+      <h1 class="worldnews__title">WORLD NEWS</h1>
       
-      <p class="main__worldnews__item__para">
-        <strong class="main__worldnews__item__title">Amazing places in America to visit.</strong>
+      <p class="worldnews__item__para">
+        <strong class="worldnews__item__title">Amazing places in America to visit.</strong>
         For some reason — this country, this city, this neighborhood, this particular street —  is the place you are
           living a majority of your life in.
         </p>
-      <button class="main__worldnews__learnmore">LEARN MORE</button>
+      <button class="worldnews__learnmore">LEARN MORE</button>
       <img src="assets/heroImage.png" alt="WORLD NEWS" class="header__worldnews-img">
     </section>
-    <section class="main__morenews">
-      <h2 class="main__morenews__columtitle">MORE NEWS</h2>
-      <ul class="main__morenews__list">
-        <li class="main__morenews__item">
-          <p class="main__morenews__item__category">TRAVEL</p>
-          <h3 class="main__morenews__item__title">Article title</h3>
+    <section class="morenews">
+      <h2 class="morenews__columtitle">MORE NEWS</h2>
+      <ul class="morenews__list">
+        <li>
+          <p class="morenews__category">TRAVEL</p>
+          <h3>Article title</h3>
           <!-- TODO bodyと書いて、本文という見え方にする -->
-          <!--<div class="main__morenews__item__body">-->
+          <!--<div class="morenews__item__body">-->
             <!--<p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>-->
           <!--</div>-->
-          <p class="main__morenews__item__para">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <time class="main__morenews-item__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
+          <div class="morenews__body">
+          <p>
+            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+          </p>
+          </div>
+          <time class="morenews__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
         </li>
-        <li class="main__morenews__item">
-          <p class="main__morenews__item__category">TECHNOLOGY</p>
-          <h3 class="main__morenews__item__title">Article title</h3>
-          <p class="main__morenews__item__para">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <time class="main__morenews-item__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
+        <li>
+          <p class="morenews__category">TECHNOLOGY</p>
+          <h3>Article title</h3>
+          <div class="morenews__body">
+          <p>
+            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+          </p>
+        </div>
+          <time class="morenewsF__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
         </li>
       </ul>
     </section>
