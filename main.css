@@ -121,6 +121,18 @@ header nav a{
     padding: 40px;
 }
 
+ }
+ .hap-large {
+     position: relative;
+ }
+ .hap-large > img {
+    position: absolute;
+ }
+ .hap-large > article {
+    position: absolute;
+ }
+
+
 .hap-03 {
     width: 360px;
     height: 210px;
