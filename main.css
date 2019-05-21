@@ -65,17 +65,17 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
     max-width:1160px;
 }
 
-.main__trending{
+.trending{
     margin-top:40px;
 }
 
-.main__trending__articles{
+.trending__articles{
     margin-top:40px;
     display:flex;
     justify-content: space-between;
 }
 
-.main__trending__articles__item__button{
+.trending__articles__item__button{
     width:360px;
     height:360px;
     background:none;
@@ -83,17 +83,17 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
     border-radius: 6px 6px 0 0;
 }
 
-.main__trending__articles__item__button__section__img{
+.trending__articles__item__button__section__img{
     height:180px;
     object-fit: contain;
 }
 
-.main__trending__articles__item__button__section__texts-wrapper{
+.trending__articles__item__button__section__texts-wrapper{
     padding:40px 40px 0 40px;
     text-align:left;
 }
 
-.main__trending__articles__item__button__section__discription{
+.trending__articles__item__button__section__discription{
     margin-top:10px;
     font-size:13px;
     font-family:"Acumin Pro",Helvetica,sans-serif;
