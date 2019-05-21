@@ -126,13 +126,8 @@ time a{
 .more-news{
     background-color: #FFFFFF;
 }
-<<<<<<< HEAD
-=======
-
-
 
 /* happening */
->>>>>>> fce3d860b9ce6d62f89de060cab9dc6a3f6c1b30
 .hap-wrapper {
     display: -webkit-flex;
     display: flex;
@@ -155,16 +150,11 @@ time a{
 .happening {
     font-size: 16px;
     font-family: Helvetica;
-<<<<<<< HEAD
     color: #FFFFFF;
  }
- .happening > h1 {
-=======
-    /* color: #FFFFFF; */
-}
+
 
 .happening>h1 {
->>>>>>> fce3d860b9ce6d62f89de060cab9dc6a3f6c1b30
     color: #202124;
     font-size: 24px;
     font-weight: bold;
@@ -173,43 +163,19 @@ time a{
 .happening>h3 {
     font-size: 24px;
     font-weight: bold;
-<<<<<<< HEAD
  }
 
  .hap-image-l {
     margin-top: 40px;
     widows: 720px;
     height: 430px;
-=======
-}
-
-.hap-01 {
-    width: 720px;
-    height: 430;
-    background: #7777F5;
-    padding: 40px;
-}
-
-.hap-02 {
-    width: 720px;
-    height: 430;
-    background: #122FF5;
-    padding: 40px;
-}
-
- .hap-large {
-     position: relative;
  }
- .hap-large > img {
-    position: absolute;
->>>>>>> fce3d860b9ce6d62f89de060cab9dc6a3f6c1b30
- }
+
  .hap-image-s {
     margin-top: 40px;
     width: 360px;
     height: 272px;
  }
-<<<<<<< HEAD
 .hap-01 {
     background: url("images/happening-01.png");
 }
@@ -258,7 +224,6 @@ ul {
 a {
     color: #CBD0D3;
 }
-=======
 
 
 .hap-03 {
@@ -269,4 +234,3 @@ a {
 footer {
     display: block;
 }
->>>>>>> fce3d860b9ce6d62f89de060cab9dc6a3f6c1b30
