@@ -17,3 +17,15 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
     font-family: YuGothic;
     color: #000000;
 }
+
+/* JSONの範囲 */
+.header__top-link-logo__img{
+width: 38px;
+height: 13px;
+}
+.header__worldnews-img{
+    width: 1220px;
+    height: 600px;
+}
+.header__links{
+}
