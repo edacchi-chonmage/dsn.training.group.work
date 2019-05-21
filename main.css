@@ -5,10 +5,6 @@ body {
     padding: 0 320px;
 }
 
-img{
-    width: 100%;
-}
-
 p {
     font-family: acumin-pro, sans-serif;
     font-weight: 400;
@@ -87,22 +83,14 @@ h3 {
     font-size: 24px;
     font-weight: bold;
  }
-
- .hap-01 {
-    width: 720px;
-    height: 430;
-    background: #7777F5;
-    padding: 40px;
+ .hap-large {
+     position: relative;
  }
- .hap-02 {
-    width: 720px;
-    height: 430;
-    background: #122FF5;
-    padding: 40px;
+ .hap-large > img {
+    position: absolute;
  }
- .hap-03 {
-     width: 360px;
-     height: 210px;
+ .hap-large > article {
+    position: absolute;
  }
 
  footer{
