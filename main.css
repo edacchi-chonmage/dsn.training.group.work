@@ -129,16 +129,9 @@ time a{
 .more-news{
     background-color: #FFFFFF;
 }
-<<<<<<< HEAD
-
-/* happening */
-=======
-
 
 
 /* happening */
-
->>>>>>> 8fd376c2ddd799a33bb70b665e77b6228ee12cc0
 .hap-wrapper {
     display: -webkit-flex;
     display: flex;
@@ -163,13 +156,8 @@ time a{
     font-family: Helvetica;
     color: #FFFFFF;
  }
-<<<<<<< HEAD
 
-
-.happening>h1 {
-=======
  .happening > h1 {
->>>>>>> 8fd376c2ddd799a33bb70b665e77b6228ee12cc0
     color: #202124;
     font-size: 24px;
     font-weight: bold;
@@ -178,9 +166,6 @@ time a{
 .happening>h3 {
     font-size: 24px;
     font-weight: bold;
-<<<<<<< HEAD
- }
-=======
 }
 
 .hap-01 {
@@ -197,7 +182,6 @@ time a{
     padding: 40px;
 }
 
->>>>>>> 8fd376c2ddd799a33bb70b665e77b6228ee12cc0
 
  .hap-image-l {
     margin-top: 40px;
@@ -251,7 +235,7 @@ input {
     flex-direction: row;
     align-content: stretch;
 }
-<<<<<<< HEAD
+
 ul {
     list-style: none;
     
@@ -269,6 +253,3 @@ a {
 footer {
     display: block;
 }
-=======
-
->>>>>>> 8fd376c2ddd799a33bb70b665e77b6228ee12cc0
