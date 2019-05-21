@@ -1,28 +1,33 @@
 @charset 'utf-8';
 
+
 /* responsive */
 @media screen and (max-width: 640px) {}
 
-
+*{
+    margin: 0;
+    padding: 0; 
+}
 /* all */
 body {
     margin: 0 auto;
     width: 1160px;
-    padding: 0 320px;
+    /* padding: 0 320px; */
+    background-color: #F6F8F9;
 }
-
-p {
+h1, h2, h3, a{
     font-family: acumin-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
-
-h1, h2, h3, a, .happening p {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
 h1, h2, h3 {
     font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+p {
+    /* font-weight: 400; */
+    font-style: normal;
+    font-weight: reguler;
 }
 ul {
     list-style: none;
@@ -36,10 +41,7 @@ button {
     outline: none;
     padding: 0;
     appearance: none;
-}
-p {
-    font-weight: reguler;
-}
+} 
 h2 {
     font-size: 16px;
     font-weight: bold;
@@ -51,7 +53,12 @@ h3 {
 }
 
 
+
 /* header */
+header{
+    width: 100vw;
+    height: 50px;
+}
 header h1 {
     font-size: 24px;
     color: #FFFFFF;
@@ -62,12 +69,67 @@ nav>ul {
 }
 
 header nav a{
-    text-decoration: none; 
     color: #343638;
     opacity: 0.5;
     margin: 0 22px;
 }
+
+.header-left{
+    float: right;
+}
+header img{
+    width: 38px;
+}
+
+
+/* time */
+time{
+    width: 66px;
+    align-items: center;
+}
+time::before{
+    content: url(images/time.png);
+    width: 16px;
+    height: 16px;
+}
+time p{
+    display: inline-block;
+    margin: 0;
+    font-size: 13px;
+    color: #A6ADB4;
+    font-style: oblique;
+}
+time a{
+    text-decoration: underline;
+}
+
+
 /* news */
+.top-news img{
+    display: inline-block;
+}
+.top-news{
+    width: 840px;
+    height: 600px;
+    background-image: url(/images/top-news-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-news button{
+    padding: 16px 30px;
+    background-color: #FA6980;
+    border-radius: 6px;   
+}
+.top-news button a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+}
+.more-news{
+    background-color: #FFFFFF;
+}
+
 
 
 /* happening */
@@ -121,7 +183,6 @@ header nav a{
     padding: 40px;
 }
 
- }
 
  .hap-image-l {
     margin-top: 40px;
