@@ -3,6 +3,8 @@
 @media screen and (max-width: 640px) {
 }
 
+
+/* ここは共通 */
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +14,74 @@ img{
     width:100%;
     vertical-align: bottom;    
 }
+ul{
+    list-style: none;
+}
 
 body,h1,h2,h3,h4,h5,p,a,strong,small,li{
-    font-family: YuGothic;
     color: #000000;
+    font-family: Helvetica,sans-serif;
+}
+.column--title{
+    color:#323336;
+    font-weight:bold;
+    font-size:16px;
+}
+.item--title{
+    font-size:16px;
+    font-weight:bold;
+    color:#323336;
+}
+
+.times::before{
+    content:url(assets/time.png);
+    padding-right:10px;
+    width:16px;
+    height:16px;
+}
+.times{
+    font-size:13px;
+    font-style:Oblique;
+}
+
+
+/* ここから田島の範囲 */
+.wrapper{
+    margin: 0 auto;
+    max-width:1160px;
+}
+
+.main__trending{
+    margin-top:40px;
+}
+
+.main__trending__articles{
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.main__trending__articles__item__button{
+    width:360px;
+    height:360px;
+    background:none;
+    border:none;
+    border-radius: 6px 6px 0 0;
+}
+
+.main__trending__articles__item__button__section__img{
+    height:180px;
+    object-fit: contain;
+}
+
+.main__trending__articles__item__button__section__texts-wrapper{
+    padding:40px 40px 0 40px;
+    text-align:left;
+}
+
+.main__trending__articles__item__button__section__discription{
+    margin-top:10px;
+    font-size:13px;
+    font-family:"Acumin Pro",Helvetica,sans-serif;
+    line-height:23px;
 }
