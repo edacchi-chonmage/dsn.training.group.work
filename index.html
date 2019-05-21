@@ -95,9 +95,9 @@
       <div class="hap-wrapper">
         <div class="hap-large">
 
-          <section>
-            <img src="images/happening-01.png">
+          <section class="hap-image-l hap-01">
             <div class="category"><h2>CITY</h2></div>
+            <div class="article-box">
             <article>
               <h3>Large article title</h3>
               <p>
@@ -109,37 +109,41 @@
             <time><p>2 min ago</p></time>
           </section>
 
-          <section>
-            <img src="images/happening-02.png">
+          <section class="hap-image-l hap-02">
             <div class="category"><h2>TRAVEL</h2></div>
-            <article>
-              <h3>Large article title</h3>
-              <p>
-                Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
-                Affert
-                detraxit voluptatum vis eu, inermis eloquentiam.
-              </p>
-            </article>
-            <time><p>2 min ago</p></time>
+
+             <div class="article-box">
+              <article>
+                <h3>Large article title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                  Affert
+                  detraxit voluptatum vis eu, inermis eloquentiam.
+                 </p>
+               </article>
+               <div class="hap-image-l time-tag">
+               <img src="images/time.png" alt="time">
+               <!-- ここの時間の数字は可変であるようにあとで書く -->
+               <p>3h ago</p>
+              </div>
+            </div>
+
           </section>
 
         </div>
         <div>
-          <section>
-            <img src="images/happening-03.png">
+          <section class="hap-image-s hap-03">
             <h3>Small title</h3>
             <div class="">
             </div>
           </section>
 
-          <section>
-            <img src="images/happening-04.png">
+          <section class=" hap-image-s hap-04">
             <h3>Small title</h3>
             <time><p>2 min ago</p></time>
           </section>
 
-          <section>
-            <img src="images/happening-05.png">
+          <section class="hap-image-s hap-05">
             <h3>Small title</h3>
             <time><p>2 min ago</p></time>
           </section>
@@ -152,36 +156,39 @@
 
   <!-- bandoここから -->
   <footer>
-    <div>
-      <img src="logo-footer">
+    <div class="footer-wrapper">
+      <img src="images/LOGO-footer.png">
       <ul>
-        <li>Home</li>
-        <li>Discovery</li>
-        <li>Photos</li>
-        <li>Contact</li>
+        <li> <a href="#">Home</li>
+        <li> <a href="#">Discovery</li>
+        <li> <a href="#">Photos</li>
+        <li> <a href="#">Contact</li>
       </ul>
       <ul>
-        <li>About</li>
-        <li>Help</li>
-        <li>Terms</li>
-        <li>Guidlines</li>
+        <li ><a href="#">About</li>
+        <li> <a href="#">Help</li>
+        <li> <a href="#">Terms</li>
+        <li> <a href="#">Guidlines</li>
       </ul>
       <ul>
-        <li>Testimonials</li>
-        <li>Advertise</li>
-        <li>Integrations</li>
-        <li>Careers</li>
+        <li> <a href="#">Testimonials</li>
+        <li> <a href="#">Advertise</li>
+        <li> <a href="#">Integrations</li>
+        <li> <a href="#">Careers</li>
       </ul>
-    </div>
-    <div>
-      <input type="text" name="email" placeholder="Email">
-      <p>Stay in touch with us for the freshest products!</p>
-    </div>
-    <div>
-      <img src="images/instagram.png" alt="instagram">
-      <img src="images/twitter.png" alt="twitter">
-      <img src="images/facebook.png" alt="facebook">
-      <img src="images/web.png" alt="web">
+     <div>
+       <input type="text" name="email" placeholder="Email">
+       <p>Stay in touch with us for the freshest products!</p>
+      </div>
+      <div>
+        <ul class="social-icons">
+            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="images/web.png" alt="web"></a></li>
+        </ul>
+       
+      </div>
     </div>
   </footer>
   <!-- bandoここまで -->
