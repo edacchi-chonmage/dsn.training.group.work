@@ -1,4 +1,20 @@
 @charset 'utf-8';
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 479px) {
+}*/
+
+header.png {
+    250px
+}
+
+header {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 24px;
+
+
+}
+
+.title {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 24px;
 }
