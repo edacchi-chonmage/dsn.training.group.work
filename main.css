@@ -2,3 +2,56 @@
 
 @media screen and (max-width: 640px) {
 }
+
+.hap-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+ .hap-large {
+    width: 720px;
+    
+ }
+ .hap-small {
+    width: 360px;
+ }
+ .happening {
+    font-size: 16px;
+    font-family: Helvetica;
+    /* color: #FFFFFF; */
+
+ }
+ .happening > h1 {
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .happening > h3 {
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .hap-small {
+    font-family: Acumin Pro;
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+ .hap-01 {
+    width: 760px;
+    height: 100%;
+    background: url('images/happening-01.png');
+ }
+
+ .hap-02 {
+    width: 760px;
+    height: 100%;
+    background: url('images/happening-02.png');
+ }
+
+ footer{
+     display: block;
+ }
