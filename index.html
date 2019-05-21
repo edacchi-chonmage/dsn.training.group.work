@@ -9,60 +9,69 @@
 </head>
 
 <body>
-<header>
-  <h1>logo</h1>
-  <!-- TODO navタグを利用すると良い -->
-  <div class="navbar_manu">
-    <ul>
-      <!-- TODO aタグを入れて、リンクにしてあげる -->
-      <!-- TODO 表面に表示される言葉も記入してあげる -->
-      <li class="home"></li>
-      <li class="discovery"></li>
-      <li class="photos"></li>
-      <li class="contact"></li>
-    </ul>
-  </div>
+  <!-- ロゴ画像あとで入れてね！ -->
+  <header>
+    <img class="logo" src="" alt="logo">
 
+    <!-- <nav class="crumbs">
+    <ol>
+        <li class="crumb"><a href="bikes">Bikes</a></li>
+        <li class="crumb"><a href="bikes/bmx">BMX</a></li>
+        <li class="crumb">Jump Bike 3000</li>
+    </ol>
+</nav> -->
+    <!-- TODO aタグを入れて、リンクにしてあげる -->
+    <!-- TODO 表面に表示される言葉も記入してあげる -->
+    <!-- TODO navタグを利用すると良い -->
+    <nav class="nav">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="profile">
+          <!-- ここにプロフィール画像入れます -->
+          <a href="profile"><img src="img/icon.png" alt=""></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- home</li> -->
-  <!-- <li>discovery</li> -->
-  <!-- <li>photos</li> -->
-  <!-- <li>contact</li> -->
-
-  <!-- TODO imgsrcでなく、src属性 -->
-  <img class="icon" imgsrc="img/icon.png" alt="icon">
-</header>
-
-<!-- ここからメインです -->
+  <!-- ここからメインです -->
 
   <main>
     <!-- worldnewsのクラスでバックグラウンドイメージ入れられるそうです -->
     <div class="worldnews">
-      <h2>WORLD NEWS
-      </h2>
+      <h1>WORLD NEWS
+      </h1>
       <p> <strong> Amazing places in America to visit.</strong>For some reason — this country, this city, this
         neighborhood, this particular street —  is the place you are living a majority of your life in.
       </p>
-      <button class="LEARN MORE" type="button">
+      <a class="LEARN MORE" type="button">
         LEARN MORE
-      </button>
+      </a>
     </div>
-    <div class="morenews">
+
+    <section class="MORENEWS">
+      <button class="next-topic-left">
+        <img src="">
+      </button>
+      <button class="next-topic-right">
+          <img src="">
+        </button>
+
       <h2>MORE NEWS</h2>
-      <ul>
-        <li>
           <span>TRAVEL</span>
+          <article></article>
           <h3>Article title</h3>
           <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <span>2 min ago</span>
-        </li>
-        <li>
+          <!-- ここ今友清作業中<span>2 min ago</span> -->
+
           <span>TECHNOLOGY</span>
           <h3>Article title</h3>
           <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <span>2 min ago</span>
-        </li>
-      </ul>
+          <!-- ここ今友清作業中<span>2 min ago</span> -->
+          </section>
   </main>
 
   <section>
@@ -89,11 +98,11 @@
     </ul>
   </section>
 
-</div>
+  </div>
 
-</main>
+  </main>
 
-<footer>
+  <footer>
 
   </footer>
 </body>
