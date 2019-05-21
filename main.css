@@ -1,4 +1,50 @@
 @charset 'utf-8';
-
-@media screen and (max-width: 640px) {
+body {
+    margin: 0 auto;
+    width: 1160px;
+    padding: 0 320px;
 }
+
+p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, a, .happening p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {}
+
+button {
+    /* 背景色を透明にする */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+p {
+    font-weight: reguler;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #202124;
+}
+
+@media screen and (max-width: 640px) {}

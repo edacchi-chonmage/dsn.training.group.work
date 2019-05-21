@@ -6,11 +6,12 @@
   <meta name="viewport" content="initial-scale=1.0">
   <title>🐰フロントエンドワーク🐰</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://use.typekit.net/svf5vwk.css">
 </head>
 
 <body>
   <header>
-    <img src="" alt="logo">
+    <img src="images/LOGO-header.png" alt="logo">
     <nav>
       <ul>
         <li>HOME</li>
@@ -19,7 +20,7 @@
         <li>CONTACT</li>
       </ul>
     </nav>
-    <img src="" alt="user-icon">
+    <img src=" images/user-icon.png" alt="user-icon">
   </header>
 
   <main>
@@ -37,8 +38,8 @@
       <section class="more-news">
         <h1>MORE NEWS</h1>
         <div>
-          <button><img src="/images/arrow-back.png" alt="arrow-back"></button>
-          <button><img src="/images/arrow.png" alt="arrow"></button>
+          <button><img src="images/arrow-back.png" alt="arrow-back"></button>
+          <button><img src="images/arrow.png" alt="arrow"></button>
         </div>
         <hr>
         <section>
@@ -46,8 +47,8 @@
           <article>
             <h3>Article title</h3>
             <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-            <div>
-              <img src="/mages/time.png" alt="time">
+            <div class="time-tag">
+              <img src="/images/time.png" alt="time">
               <!-- ここの時間の数字は可変であるようにあとで書く -->
               <p>2 min ago</p>
             </div>
@@ -58,8 +59,8 @@
           <article>
             <h3>Article title</h3>
             <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-            <div>
-              <img src="/mages/time.png" alt="time">
+            <div class="time-tag">
+              <img src="/images/time.png" alt="time">
               <!-- ここの時間の数字は可変であるようにあとで書く -->
               <p>2 min ago</p>
             </div>
@@ -70,14 +71,14 @@
     <section class="trending">
       <h1>TRENDING</h1>
       <div>
-          <button><img src="/images/arrow-back.png" alt="arrow-back"></button>
-          <button><img src="/images/arrow.png" alt="arrow"></button>
+        <button><img src="/images/arrow-back.png" alt="arrow-back"></button>
+        <button><img src="/images/arrow.png" alt="arrow"></button>
       </div>
       <article>
         <h3>Dolore magna aliqua</h3>
         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <div>
-          <img src="/mages/time.png" alt="time">
+        <div class="time-tag">
+          <img src="/images/time.png" alt="time">
           <!-- ここの時間の数字は可変であるようにあとで書く -->
           <p>2m ago</p>
         </div>
@@ -86,8 +87,8 @@
       <article>
         <h3>Morbi eleifend a libero</h3>
         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <div>
-          <img src="/mages/time.png" alt="time">
+        <div class="time-tag">
+          <img src="/images/time.png" alt="time">
           <!-- ここの時間の数字は可変であるようにあとで書く -->
           <p>1h ago</p>
         </div>
@@ -96,15 +97,16 @@
       <article>
         <h3>Morbi eleifend a libero</h3>
         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <div>
-          <img src="/mages/time.png" alt="time">
+        <div class="time-tag">
+          <img src="/images/time.png" alt="time">
           <!-- ここの時間の数字は可変であるようにあとで書く -->
           <p>3h ago</p>
         </div>
       </article>
-    </section><section class="happening">
-        <h1>HAPPENING NOW</h1>
-        <!-- 矢印入れようネ -->
+    </section>
+    <section class="happening">
+      <h1>HAPPENING NOW</h1>
+      <!-- 矢印入れようネ -->
       <div class="hap-large">
 
         <section>
@@ -116,42 +118,57 @@
               detraxit voluptatum vis eu, inermis eloquentiam.
             </p>
           </article>
-          <div class="">
+          <div class="time-tag">
+            <img src="/images/time.png" alt="time">
+            <!-- ここの時間の数字は可変であるようにあとで書く -->
+            <p>3h ago</p>
           </div>
         </section>
 
         <section>
-            <h2>TRAVEL</h2>
-            <article>
-              <h3>Large article title</h3>
-              <p>
-                Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
-                detraxit voluptatum vis eu, inermis eloquentiam.
-              </p>
-            </article>
-            <div class="">
-            </div>
-          </section>
+          <h2>TRAVEL</h2>
+          <article>
+            <h3>Large article title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert
+              detraxit voluptatum vis eu, inermis eloquentiam.
+            </p>
+          </article>
+          <div class="time-tag">
+            <img src="/images/time.png" alt="time">
+            <!-- ここの時間の数字は可変であるようにあとで書く -->
+            <p>3h ago</p>
+          </div>
+        </section>
 
       </div>
       <div class="hap-small">
         <section>
           <h3>Small title</h3>
-          <div class="">
-            </div>
+          <div class="time-tag">
+            <img src="/images/time.png" alt="time">
+            <!-- ここの時間の数字は可変であるようにあとで書く -->
+            <p>3h ago</p>
+          </div>
         </section>
 
         <section>
-            <h3>Small title</h3>
-            <div class="">
-              </div>
-          </section>
+          <h3>Small title</h3>
+          <div class="time-tag">
+            <img src="/images/time.png" alt="time">
+            <!-- ここの時間の数字は可変であるようにあとで書く -->
+            <p>3h ago</p>
+          </div>
+        </section>
 
-          <section>
-              <h3>Small title</h3>
-              <div class="">
-                </div>
-            </section>
+        <section>
+          <h3>Small title</h3>
+          <div class="time-tag">
+            <img src="/images/time.png" alt="time">
+            <!-- ここの時間の数字は可変であるようにあとで書く -->
+            <p>3h ago</p>
+          </div>
+        </section>
       </div>
     </section>
     <!-- bandoここまで -->
@@ -169,21 +186,21 @@
         <li>Contact</li>
       </ul>
       <ul>
-          <li>About</li>
-          <li>Help</li>
-          <li>Terms</li>
-          <li>Guidlines</li>
+        <li>About</li>
+        <li>Help</li>
+        <li>Terms</li>
+        <li>Guidlines</li>
       </ul>
       <ul>
-          <li>Testimonials</li>
-          <li>Advertise</li>
-          <li>Integrations</li>
-          <li>Careers</li>
+        <li>Testimonials</li>
+        <li>Advertise</li>
+        <li>Integrations</li>
+        <li>Careers</li>
       </ul>
     </div>
     <div>
-        <input type="text" name="email"  placeholder="Email">
-        <p>Stay in touch with us for the freshest products!</p>
+      <input type="text" name="email" placeholder="Email">
+      <p>Stay in touch with us for the freshest products!</p>
     </div>
     <div>
       <img src="images/instagram.png" alt="instagram">
@@ -195,7 +212,7 @@
   <!-- bandoここまで -->
 
 
-
+<img src="/images/arrow.png" alt="">
 </body>
 
 </html>
