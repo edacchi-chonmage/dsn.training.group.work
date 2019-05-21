@@ -59,44 +59,44 @@ h3 {
 
  .hap-large {
     width: 720px;
-    
  }
  .hap-small {
     width: 360px;
+    font-family: Acumin Pro;
+    font-size: 16px;
+    font-weight: bold;
  }
+
  .happening {
     font-size: 16px;
     font-family: Helvetica;
     /* color: #FFFFFF; */
-
  }
  .happening > h1 {
     color: #202124;
     font-size: 24px;
     font-weight: bold;
  }
-
  .happening > h3 {
     font-size: 24px;
     font-weight: bold;
  }
 
- .hap-small {
-    font-family: Acumin Pro;
-    font-size: 16px;
-    font-weight: bold;
- }
-
  .hap-01 {
-    width: 760px;
-    height: 100%;
-    background: url('images/happening-01.png');
+    width: 720px;
+    height: 430;
+    background: #7777F5;
+    padding: 40px;
  }
-
  .hap-02 {
-    width: 760px;
-    height: 100%;
-    background: url('images/happening-02.png');
+    width: 720px;
+    height: 430;
+    background: #122FF5;
+    padding: 40px;
+ }
+ .hap-03 {
+     width: 360px;
+     height: 210px;
  }
 
  footer{
