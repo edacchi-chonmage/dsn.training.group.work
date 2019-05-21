@@ -131,9 +131,7 @@ time a{
 }
 
 
-
 /* happening */
-
 .hap-wrapper {
     display: -webkit-flex;
     display: flex;
@@ -158,6 +156,7 @@ time a{
     font-family: Helvetica;
     color: #FFFFFF;
  }
+
  .happening > h1 {
     color: #202124;
     font-size: 24px;
@@ -189,6 +188,7 @@ time a{
     widows: 720px;
     height: 430px;
  }
+
  .hap-image-s {
     margin-top: 40px;
     width: 360px;
@@ -236,3 +236,20 @@ input {
     align-content: stretch;
 }
 
+ul {
+    list-style: none;
+    
+}
+a {
+    color: #CBD0D3;
+}
+
+
+.hap-03 {
+    width: 360px;
+    height: 210px;
+}
+
+footer {
+    display: block;
+}
