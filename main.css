@@ -2,3 +2,18 @@
 
 @media screen and (max-width: 640px) {
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width:100%;
+    vertical-align: bottom;    
+}
+
+body,h1,h2,h3,h4,h5,p,a,strong,small,li{
+    font-family: YuGothic;
+    color: #000000;
+}
