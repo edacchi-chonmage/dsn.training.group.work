@@ -34,7 +34,7 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
 }
 
 .times::before{
-    content:url(assets/time.png);
+    content:url(assets/time@2x.png);
     padding-right:10px;
     width:16px;
     height:16px;
@@ -47,9 +47,9 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
 }
 
 /* JSONの範囲 */
-.header__top-link-logo__img{
-width: 38px;
-height: 13px;
+.header__top-link-logo--img{
+    width: 38px;
+    height: 13px;
 }
 .header__worldnews-img{
     width: 1220px;
@@ -98,5 +98,4 @@ height: 13px;
     font-size:13px;
     font-family:"Acumin Pro",Helvetica,sans-serif;
     line-height:23px;
->>>>>>> c90b1cf4ef58a482934033028fa0d01a457f0e33
 }
