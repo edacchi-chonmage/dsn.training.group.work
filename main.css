@@ -6,3 +6,15 @@
     display: -webkit-flex;
     display: flex;
  }
+
+ .FooterMenu{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width:100%;
+ }
+ .FooterMenu > * {
+     flex: 200px
+   
+ }
