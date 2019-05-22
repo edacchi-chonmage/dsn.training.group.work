@@ -114,6 +114,7 @@ h2{
 }
 
 @media screen and ( max-width: 375px) {
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -125,33 +126,20 @@ h2{
   }
 
   nav {
-    　text-align: center;
+    text-align: center;
   }
 
-  　 nav ul {
-    　margin: 0;
-    　padding: 0;
-  }
+  　
 
   nav ul li {
-    margin-left: auto;
-    display: inline;
-    padding: 20px;
-    font-size: 11px;
-    font-weight: bold;
-    color: #343638;
-    opacity: 0.5;
     display: none;
   }
 
   nav ul li.home {
-    opacity: 1;
     display: none;
   }
 
   h1, h2 {
-    margin-top: -360px;
-    margin-left: 320px;
     font-weight: bold;
     font-size: 24px;
     color: #FFFFFF;
@@ -159,7 +147,7 @@ h2{
 
   .header img {
     overflow: hidden;
-    position: relative;
+    position: relative absolute;
     height: 368px;
     top: 50%;
     left: 50%;
