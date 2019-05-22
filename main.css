@@ -15,15 +15,20 @@
     }
 
     header > p{
-        font-size: 13px;
-        color: #FA6980;
-        font-weight: bold;
-        display: flex;
-        display: none;
+         display: none;
 
     }
 
-    .nav ul li{ 
+    nav{
+        text-align: center;
+        }
+
+　 nav ul{
+        margin: 0;
+        padding: 0;
+        }
+
+    nav ul li{ 
         margin-left: auto;
         display: inline;
         padding: 20px;	
@@ -34,7 +39,7 @@
         display: none;
      } 
 
-    .nav ul li.home {
+    nav ul li.home {
         opacity: 1;
         display: none;
     }
@@ -115,11 +120,5 @@ p {
 }
 
 .TRENDING_center img {
-    margin-left: px;
+    margin-left: 13px;
 }
-
-
-
- 
-
-
