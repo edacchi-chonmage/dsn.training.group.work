@@ -1,35 +1,32 @@
-@charset 'utf-8';
 
-<<<<<<< HEAD
-/* @media screen and (max-width: 479px) {
-}*/
-
-header.png {
-    250px
-}
-
-header {
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 24px;
-
-
-}
-
-.title {
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 24px;
-=======
+/* @media screen and ( max-width: 1800px) { */
+/* } */
+/* @media screen and ( max-width: 1440px) { */
+/* } */
+/* @media screen and ( max-width: 768px) { */
+/* } */
 /* @media screen and ( max-width: 375px) { */
 /* } */
+
+p {
+    font-family: 'Helvetica';
+}
 
 h1 {
     font-weight: bold;
     font-size: 50px;
-    font-family: 'sans-serif';
     margin-top: 60px;
 }
 
-p.pink1 {
+.card_title {
+    font-weight: bold;
+    font-size: 24px;
+}
 
->>>>>>> 01e0a066433069ed8d0cadeb908e7df77e10db7f
+.travel {
+    color: #FA6980;
+}
+
+.technology {
+    color: #FA6980;
 }
