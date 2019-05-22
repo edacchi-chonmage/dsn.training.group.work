@@ -32,7 +32,7 @@ p {
 
     .top{
         /* position: absolute; */
-        width: 600px;
+        width: 1220px;
         height: 400px;
         position: relative;
         background-image: url(imgs/header.png);
@@ -103,20 +103,24 @@ p {
     }
     
     .travel {
+        font-weight: bold;
         color: #FA6980;
     }
     
     .technology {
+        font-weight: bold;
         color: #FA6980;
     }
-       
-    
-    /*画像*/ 
 
-    .main_img{
-        width: 1220px;
-        height: 600px;
+    .article_title{
+        font-weight: bold;
+        font-size: 16px;
+    } 
+    
+    .card_text{
+       color:#A6ADB4; 
     }
+    /*画像*/ 
 
 
   } 
