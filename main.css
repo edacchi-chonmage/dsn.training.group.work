@@ -304,7 +304,11 @@ footer{
     font-size:13px;
     color: #CBD0D3;
 }
-
+.footer__contact > form> input {
+    background:none;
+    border:2px solid #FFFFFF;
+    border-radius: 6px;
+}
 .footer__contact > p{
     font-size:11px;
 }
