@@ -260,7 +260,7 @@ img.user {
 }
 
 .title_wrapper:after {
-    border-bottom: solid 2px #000000;
+    border-bottom: solid 2px #EBEDED;
     border-radius: 1px;
     /* 線幅の半分 */
     content: "";
@@ -294,33 +294,65 @@ p.article-category {
 }
 
 /* trending */
+
+@media screen and (min-width:376px) {
+    /*376px以上で適用する内容*/
+    .trending article {
+        width: 284px;
+        height: 350px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    /*769px以上で適用する内容*/
+    .trending article {
+        width: 360px;
+        height: 350px;
+        margin-left: 40px;
+    }
+}
+
+.trending article {
+    border-radius: 0 0 6px 6px;
+    background-color: #FFFFFF;
+}
+
 .article-wrapper {
     display: flex;
 }
 
-.trending article {
+/* .trending article {
     border-radius: 0 0 6px 6px;
     width: 360px;
     height: 350px;
     background-color: #FFFFFF;
     margin-left: 40px;
-}
+} */
+
 .trending article:nth-of-type(1) {
     margin-left: 0;
 }
+
 .trending-article-box {
     padding: 40px;
+    padding-top: 25px;
 }
+
 .trending p {
     font-size: 13px;
     color: #A6ADB4;
     padding-top: 10px;
 }
+
 /* happening */
 
 .hap-wrapper {
-    height: 900px;
     position: relative;
+}
+
+.hap-box {
+    border-radius: 6px;
 }
 
 .happening {
@@ -458,9 +490,9 @@ input {
     width: 260px;
     height: 40px;
     padding: 10px;
-    background-color: #CBD0D3;
+    background-color: #A6ADB4;
+    color: #CBD0D3;
 }
-
 
 footer {
     display: block;
@@ -471,27 +503,43 @@ footer {
     margin-top: 100px;
 }
 
+footer a {
+    color: #CBD0D3;
+}
+
+footer p {
+    padding-top: 16px;
+    font-size: 13px;
+}
+
 .footer-wrapper {
     width: 1160px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding-top: 58px; 
+    padding-top: 58px;
     /* flex-direction: row; */
 }
 
-.footer-wrapper img { 
+.footer-wrapper img {
     height: 16px;
     width: auto;
 }
 
-.footer-nav_wrapper ul {
-    width: 379px;
-    height: 32px;
+.footer-nav_wrapper>ul {
+    width: 279px;
+    height: 82px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    /* justify-content: space-between;
+} */
+}
+
+.footer-nav_wrapper li {
+    font-size: 13px;
+    line-height: 20px;
+    height: auto;
 }
 
 .social-icons ul {
