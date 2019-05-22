@@ -5,28 +5,39 @@
 /* } */
 /* @media screen and ( max-width: 768px) { */
 /* } */
+
 /* @media screen and ( max-width: 375px) { */
 /* } */
+
 
 p {
     font-family: 'Helvetica';
 }
+ 
+@media screen and ( max-width: 1800px) { 
+    
+    h1 {
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 60px;
+    }
 
-h1 {
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 60px;
-}
+    hr {
+        weight: 40px;
+    }
+    
+    .card_title {
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    .travel {
+        color: #FA6980;
+    }
+    
+    .technology {
+        color: #FA6980;
+    }
+     
+  } 
 
-.card_title {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.travel {
-    color: #FA6980;
-}
-
-.technology {
-    color: #FA6980;
-}
