@@ -2,15 +2,72 @@
 
 @media screen and (max-width: 640px) {
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+/* ここからheaderですわよ */
+header {
+  width: 1800px;
+  height: 50px;
+  background-color: #F6F8F9;
+  display: flex;
+  justify-content: space-between;
 
-/* えだっちさんに書いてもらったもの */
+}
+header > a {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  font-size: 11px;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
 ul > li {
+  margin-left: 20px;
+  font-weight: bold;
+  opacity: 0.5;
+  
+}
+ul > li:hover,
+ul > li.account{
+  opacity: 1;
+}
+
+
+/*  */
+
+li > .profile {
+  width: 30px;
+  height: 30px;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: -10px;
   margin-left: 20px;
 }
 
-ul > li.profile {
-  margin-left: 30px;
+
+
+li > .profile > img {
+  height: 100%;
+
 }
+
+
+/* 角丸もピクセルでできるよ　border radius */
+
+/* えだっちさんに書いてもらったもの */
+
+
 /*友清*/
 
 header{
