@@ -65,11 +65,13 @@ h3 {
     justify-content: space-between;
 }
 
+
 .arrows {
     width: 52px;
     display: flex;
     justify-content: space-between;
 }
+
 
 /* time */
 
@@ -111,10 +113,11 @@ header {
 .nav-items{
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-right: 20px; 
 }
 nav>ul {
     display: flex;
+    padding-right: 40px;
 }
 
 li {
@@ -146,7 +149,6 @@ img.logo {
 img.user {
     width: 30px;
     height: 30px;
-    padding: 10px;
 }
 
 /* news */
@@ -419,4 +421,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-content: stretch;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: space-between;
 }
