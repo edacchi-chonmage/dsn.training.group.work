@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 680px) {
 }
 <<<<<<< HEAD
 * {
@@ -41,10 +41,24 @@ body > header{
 h1,h2,h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
+    color: #202124;
 }
+
+
 .World_News_contents{
+    display: block;
+    z-index: 1000;
     width: 660px;
     height: 247px;
+    margin-top:-375px;
+}
+.World_News_contents > h1,h2{
+    font-size: 24px;
+    color: #ffffff;
+}
+.World_News_contents > p{
+    font-size: 16px;
+    color: #ffffff;
 }
 
  .World_News >img{
@@ -53,12 +67,16 @@ h1,h2,h3 {
     max-width : 100%;
     height: auto; 
  }
-
- .World_News > article{
-    max-width: 660px;
+ .World_News_contents > article{
     position: relative;
 
  }
+
+ .More_News >h2{
+     color: #202124;
+
+ }
+
 
  .trending_contents >img{
      width: 360px;
