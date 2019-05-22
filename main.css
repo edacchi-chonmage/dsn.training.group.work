@@ -6,37 +6,119 @@
 /* @media screen and ( max-width: 768px) { */
 /* } */
 
-/* @media screen and ( max-width: 375px) { */
-/* } */
-
 
 p {
     font-family: 'Helvetica';
 }
- 
-@media screen and ( max-width: 1800px) { 
-    
-    h1 {
-        font-weight: bold;
-        font-size: 24px;
-        margin-top: 60px;
-    }
 
-    hr {
-        weight: 40px;
-    }
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.card_title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.travel {
+    color: #FA6980;
+}
+
+.technology {
+    color: #FA6980;
+
+}
+
+
+
+@media screen and ( max-width: 375px) {
+
+}
+
+.header {
+    margin: 0px
+}
+
+.main_img img {
+/*親要素のwidthを1800pxに*/
+width: 375px;
+height: 388px;
+margin-left: 0px;
+}
+
+p {
+    font-family: 'Helvetica';
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -360px;
+    margin-left: 13px;
+    color: white;
+
+}
+
+.hr {
+    margin-left: 13px;
+    margin-top: -360px;
+    height: 1px;
+    border: none;
+    border-top: 3px　color white solid;
+}
+.main_text {
+    color: white;
+    font-size: 15px;
+    margin-left: 13px;
+}
+
+.card_title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 160px;
     
-    .card_title {
-        font-weight: bold;
-        font-size: 24px;
-    }
-    
-    .travel {
-        color: #FA6980;
-    }
-    
-    .technology {
-        color: #FA6980;
-    }
-     
-  } 
+}
+
+.travel {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FA6980;
+    margin-top: 80px;
+}
+
+.article_title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card_text {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.technology {
+    font-weight: bold;
+    color: #FA6980;
+
+}
+
+.TRENDING_title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 160px;
+
+}
+
+
+.TRENDING_left img {
+    margin-left: 13px;
+
+}
+
+.TRENDING_center img {
+    margin-left: px;
+}
+
+
+
