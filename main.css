@@ -4,7 +4,6 @@
 @media screen and (max-width: 640px) {}
 
 
-
 /* all */
 * {
     margin: 0;
@@ -145,9 +144,6 @@ img.user {
     display: flex;
 }
 
-.happening time p {
-    color: #CBD0D3;
-}
 
 .news h1 {
     font-size: 24px;
@@ -267,18 +263,17 @@ p.article-category{
 
 .hap-wrapper {
     height: 900px;
-    position: absolute;
+    position: relative;
 }
-
 
 .happening {
     font-size: 16px;
     font-family: Helvetica;
     color: #FFFFFF;
     line-height: 1.6rem;
-}
+ }
 
-.happening h1 {
+ .happening h1 {
     color: #202124;
     font-size: 24px;
     font-weight: bold;
@@ -299,8 +294,18 @@ p.article-category{
 }
 
 .article-box {
-    margin-top: 200px;
+    margin-top: 170px;
     padding: 40px;
+}
+
+.happening time p {
+    color: #CBD0D3;
+}
+.article-box p {
+    padding-top: 10px;
+}
+time a {
+    color: #A6ADB4;
 }
 
 .hap-wrapper section:nth-of-type(1) {
@@ -314,27 +319,57 @@ p.article-category{
     height: 430px;
 }
 
+
 .hap-wrapper section:nth-of-type(3) {
-    widows: 360px;
+    width: 360px;
     height: 272px;
-    position: relative;
+    position: absolute;
     top: 0;
     right: 0;
     background-repeat: no-repeat;
 }
-
+.hap-wrapper section:nth-of-type(3) h2{
+    font-size: 16px;
+    color: #202124;
+    padding-top: 220px;
+}
+.hap-wrapper section:nth-of-type(3) time p {
+    color: #A6ADB4;
+}
 .hap-wrapper section:nth-of-type(4) {
-    widows: 360px;
+    width: 360px;
     height: 272px;
+    position: absolute;
+    top: 312px;
+    right: 0;
     background-repeat: no-repeat;
+}
+
+.hap-wrapper section:nth-of-type(4) h2{
+    font-size: 16px;
+    color: #202124;
+    padding-top: 220px;
+}
+.hap-wrapper section:nth-of-type(4) time p {
+    color: #A6ADB4;
 }
 
 .hap-wrapper section:nth-of-type(5) {
-    widows: 360px;
+    width: 360px;
     height: 272px;
+    position: absolute;
+    top: 624px;
+    right: 0;
     background-repeat: no-repeat;
 }
-
+.hap-wrapper section:nth-of-type(5) h2{
+    font-size: 16px;
+    color: #202124;
+    padding-top: 220px;
+}
+.hap-wrapper section:nth-of-type(5) time p {
+    color: #A6ADB4;
+}
 .hap-01 {
     background: url("images/happening-01.png");
 }
@@ -359,19 +394,16 @@ input {
     padding: 10px;
     background-color: #CBD0D3;
 }
-
 footer {
     display: block;
     height: 200px;
     background-color: #A6ADB4;
     color: #CBD0D3;
 }
-
-.footer-wrapper>img {
+.footer-wrapper img {
     height: 16px;
     width: auto;
 }
-
 .footer-wrapper {
     display: -webkit-flex;
     display: flex;
