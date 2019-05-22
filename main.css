@@ -291,6 +291,22 @@ p.article-category {
     padding: 0;
 }
 
+/* trending */
+.article-wrapper {
+    display: flex;
+}
+
+.trending article {
+    width: 360px;
+    height: 350px;
+    background-color: #FFFFFF;
+    margin-left: 40px;
+}
+.trending article:nth-of-type(1) {
+    margin-left: 0;
+}
+
+
 /* happening */
 
 .hap-wrapper {
@@ -317,8 +333,7 @@ p.article-category {
     color: #FFFFFF;
 }
 
-.article-category {
-    font-size: 16px;
+.happening .article-category {
     font-weight: bold;
     color: #FFFFFF;
     padding-left: 40px;
