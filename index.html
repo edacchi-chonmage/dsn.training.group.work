@@ -13,24 +13,27 @@
   <header>
     <img class="logo" src="images/LOGO-header.png" alt="logo">
     <div class="nav-items">
-    <nav>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">DISCOVERY</a></li>
-        <li><a href="#">PHOTOS</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </nav>
-    <img class="user" src="images/user-icon.png" alt="user-icon">
-  </div>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">DISCOVERY</a></li>
+          <li><a href="#">PHOTOS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <img class="user" src="images/user-icon.png" alt="user-icon">
+    </div>
   </header>
 
   <main>
     <section class="news">
       <section class="top-news">
         <div class="top-news_wrapper">
-          <h1>WORLD NEWS</h1>
-
+          <div class="title_wrapper">
+            <div class="title">
+              <h1>WORLD NEWS</h1>
+            </div>
+          </div>
           <article>
             <h2>Amazing places in America to visit.</h2>
             <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you
@@ -41,33 +44,37 @@
       </section>
       <section class="more-news">
         <div class="more-news_wrapper">
-          <div class="title">
-            <h1>MORE NEWS</h1>
-            <div class="arrows">
-              <button><img src="images/arrow-back.png" alt="arrow-back"></button>
-              <button><img src="images/arrow.png" alt="arrow"></button>
+          <div class="title_wrapper">
+            <div class="title">
+              <h1>MORE NEWS</h1>
+              <div class="arrows">
+                <button><img src="images/arrow-back.png" alt="arrow-back"></button>
+                <button><img src="images/arrow.png" alt="arrow"></button>
+              </div>
             </div>
           </div>
-          <section>
-            <p class="article-category">TRAVEL</p>
-            <article>
-              <h2>Article title</h2>
-              <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-              <time>
-                <p>2 min ago</p>
-              </time>
-            </article>
-          </section>
-          <section>
-            <p class="article-category">TECHNOLOGY</p>
-            <article>
-              <h2>Article title</h2>
-              <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-              <time>
-                <p>2 min ago</p>
-              </time>
-            </article>
-          </section>
+          <div class="new">
+            <section>
+              <p class="article-category">TRAVEL</p>
+              <article>
+                <h2>Article title</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                <time>
+                  <p>2 min ago</p>
+                </time>
+              </article>
+            </section>
+            <section>
+              <p class="article-category">TECHNOLOGY</p>
+              <article>
+                <h2>Article title</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                <time>
+                  <p>2 min ago</p>
+                </time>
+              </article>
+            </section>
+          </div>
         </div>
       </section>
     </section>
@@ -75,12 +82,12 @@
     <div class="wrapper">
       <section class="trending">
         <div class="title">
-        <h1>TRENDING</h1>
-        <div class="arrows">
-          <button><img src="images/arrow-back.png" alt="arrow-back"></button>
-          <button><img src="images/arrow.png" alt="arrow"></button>
+          <h1>TRENDING</h1>
+          <div class="arrows">
+            <button><img src="images/arrow-back.png" alt="arrow-back"></button>
+            <button><img src="images/arrow.png" alt="arrow"></button>
+          </div>
         </div>
-      </div>
         <article>
           <h3>Dolore magna aliqua</h3>
           <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -97,61 +104,71 @@
             <p>2 min ago</p>
           </time>
         </article>
-          
-    <section class="happening">
-        <div class="title">
-        <h1>HAPPENING NOW</h1>
-        <div class="arrows">
-            <button><img src="images/arrow-back.png" alt="arrow-back"></button>
-            <button><img src="images/arrow.png" alt="arrow"></button>
-        </div>
-      </div>
-      <div class="hap-wrapper">
-          <section class="hap-01">
-            <p class="article-category">CITY</p>
-            <div class="article-box">
-            <article>
-              <h2>Large article title</h2>
-              <p>
-                Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
-                Affert
-                detraxit voluptatum vis eu, inermis eloquentiam.
-              </p>
-            </article>
-            <time><p>2 min ago</p></time>
-          </section>
 
-          <section class="hap-02">
+        <section class="happening">
+          <div class="title">
+            <h1>HAPPENING NOW</h1>
+            <div class="arrows">
+              <button><img src="images/arrow-back.png" alt="arrow-back"></button>
+              <button><img src="images/arrow.png" alt="arrow"></button>
+            </div>
+          </div>
+          <div class="hap-wrapper">
+            <section class="hap-01">
+              <p class="article-category">CITY</p>
+              <div class="article-box">
+                <article>
+                  <h2>Large article title</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                    Affert
+                    detraxit voluptatum vis eu, inermis eloquentiam.
+                  </p>
+                </article>
+                <time>
+                  <p>2 min ago</p>
+                </time>
+            </section>
+
+            <section class="hap-02">
               <p class="article-category">TRAVE</p>
-             <div class="article-box">
-              <article>
-                <h2>Large article title</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
-                  Affert
-                  detraxit voluptatum vis eu, inermis eloquentiam.
-                 </p>
-              </article>
-              <time><p>2 min ago</p></time>
-          </section>
+              <div class="article-box">
+                <article>
+                  <h2>Large article title</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                    Affert
+                    detraxit voluptatum vis eu, inermis eloquentiam.
+                  </p>
+                </article>
+                <time>
+                  <p>2 min ago</p>
+                </time>
+            </section>
 
-          <section class="hap-03">
-            <h2>Small title</h2>
-            <time><p>3h ago by <a href="#">Worldnews</a></p></time>
-          </section>
+            <section class="hap-03">
+              <h2>Small title</h2>
+              <time>
+                <p>3h ago by <a href="#">Worldnews</a></p>
+              </time>
+            </section>
 
-          <section class="hap-04">
-            <h2>Small title</h2>
-              <time><p>4h ago by <a href="#">Days</a></p></time>
-          </section>
+            <section class="hap-04">
+              <h2>Small title</h2>
+              <time>
+                <p>4h ago by <a href="#">Days</a></p>
+              </time>
+            </section>
 
-          <section class="hap-05">
-            <h2>Small title</h2>
-             <time><p>3h ago by <a href="#">Monica</a></p></time>
-          </section>
-      </div>
-    </section>
-    <!-- bandoここまで -->
+            <section class="hap-05">
+              <h2>Small title</h2>
+              <time>
+                <p>3h ago by <a href="#">Monica</a></p>
+              </time>
+            </section>
+          </div>
+        </section>
+        <!-- bandoここまで -->
 
   </main>
 
@@ -160,24 +177,22 @@
   <footer>
     <div class="footer-wrapper">
       <img src="images/LOGO-footer.png">
-      <ul>
-        <li> <a href="#">Home</li>
-        <li> <a href="#">Discovery</li>
-        <li> <a href="#">Photos</li>
-        <li> <a href="#">Contact</li>
-      </ul>
-      <ul>
-        <li><a href="#">About</li>
-        <li> <a href="#">Help</li>
-        <li> <a href="#">Terms</li>
-        <li> <a href="#">Guidlines</li>
-      </ul>
-      <ul>
-        <li> <a href="#">Testimonials</li>
-        <li> <a href="#">Advertise</li>
-        <li> <a href="#">Integrations</li>
-        <li> <a href="#">Careers</li>
-      </ul>
+      <div class="footer-nav_wrapper">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li> <a href="#">Discovery</a></li>
+          <li> <a href="#">Photos</a></li>
+          <li> <a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li> <a href="#">Help</a></li>
+          <li> <a href="#">Terms</a></li>
+          <li> <a href="#">Guidlines</a></li>
+          <li> <a href="#">Testimonials</a></li>
+          <li> <a href="#">Advertise</a></li>
+          <li> <a href="#">Integrations</a></li>
+          <li> <a href="#">Careers</a></li>
+        </ul>
+      </div>
       <div>
         <input type="text" name="email" placeholder="Email">
         <p>Stay in touch with us for the freshest products!</p>

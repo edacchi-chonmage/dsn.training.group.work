@@ -3,8 +3,8 @@
 
 @media screen and (max-width: 640px) {}
 
-
 /* all */
+
 * {
     margin: 0;
     padding: 0;
@@ -60,18 +60,17 @@ h3 {
     color: #202124;
 }
 
-.title{
+.title {
     display: flex;
     justify-content: space-between;
+    padding: 40px 0;
 }
-
 
 .arrows {
     width: 52px;
     display: flex;
     justify-content: space-between;
 }
-
 
 /* time */
 
@@ -93,7 +92,6 @@ time p {
     color: #A6ADB4;
     font-style: oblique;
     vertical-align: 3px;
-
 }
 
 time a {
@@ -110,11 +108,12 @@ header {
     justify-content: space-between;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     align-items: center;
-    padding-right: 20px; 
+    padding-right: 20px;
 }
+
 nav>ul {
     display: flex;
     padding-right: 40px;
@@ -149,6 +148,7 @@ img.logo {
 img.user {
     width: 30px;
     height: 30px;
+    border-radius: 20px;
 }
 
 /* news */
@@ -156,7 +156,6 @@ img.user {
 .news {
     display: flex;
 }
-
 
 .news h1 {
     font-size: 24px;
@@ -177,18 +176,18 @@ img.user {
     background-size: cover;
 }
 
-.top-news h1:after {
-    content: "";
-    background-color: #FFFFFF;
-    /* border-bottom: solid 2px #FFFFFF; */
+.top-news_wrapper>.title_wrapper:after {
+    border-bottom: solid 2px #FFFFFF;
     border-radius: 1px;
     /* 線幅の半分 */
-    
+    content: "";
     display: block;
-    height: 1px;
     /* 線幅 */
-    width: 200px;
-    /* padding-top: 40px; */
+    width: 380px;
+}
+
+.top-news .title {
+    padding-bottom: 40px;
 }
 
 .top-news h2 {
@@ -226,29 +225,6 @@ img.user {
 .top-news p {
     margin-top: 10px;
 }
-.more-news h1{
-    color: #000000;
-}
-.more-news h2{
-    font-size: 16px;
-}
-.more-news p{
-    color: #A6ADB4;
-}
-
-.news .title:after {
-    border-bottom: solid 2px #000000;
-    border-radius: 1px;
-    /* 線幅の半分 */
-    content: "";
-    display: block;
-    height: 10px;
-    /* 線幅 */
-    width: 200px;
-    padding-top: 40px;
-}
-
-
 
 .more-news {
     z-index: 100;
@@ -265,7 +241,51 @@ img.user {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-p.article-category{
+
+.more-news h1 {
+    color: #000000;
+}
+
+.more-news h2 {
+    font-size: 16px;
+}
+
+.more-news p {
+    color: #A6ADB4;
+}
+
+.more-news .title {
+    width: 380px;
+    padding-bottom: 40px;
+}
+
+.title_wrapper:after {
+    border-bottom: solid 2px #000000;
+    border-radius: 1px;
+    /* 線幅の半分 */
+    content: "";
+    display: block;
+    /* 線幅 */
+    width: 380px;
+}
+
+.new {
+    margin-top: 40px;
+}
+
+.new section+section {
+    margin-top: 40px;
+}
+
+.new h2 {
+    margin-top: 20px;
+}
+
+.new p {
+    margin-top: 10px;
+}
+
+p.article-category {
     font-size: 16px;
     color: #FA6980;
     padding: 0;
@@ -283,9 +303,9 @@ p.article-category{
     font-family: Helvetica;
     color: #FFFFFF;
     line-height: 1.6rem;
- }
+}
 
- .happening h1 {
+.happening h1 {
     color: #202124;
     font-size: 24px;
     font-weight: bold;
@@ -313,9 +333,11 @@ p.article-category{
 .happening time p {
     color: #CBD0D3;
 }
+
 .article-box p {
     padding-top: 10px;
 }
+
 time a {
     color: #A6ADB4;
 }
@@ -331,7 +353,6 @@ time a {
     height: 430px;
 }
 
-
 .hap-wrapper section:nth-of-type(3) {
     width: 360px;
     height: 272px;
@@ -340,14 +361,17 @@ time a {
     right: 0;
     background-repeat: no-repeat;
 }
-.hap-wrapper section:nth-of-type(3) h2{
+
+.hap-wrapper section:nth-of-type(3) h2 {
     font-size: 16px;
     color: #202124;
     padding-top: 220px;
 }
+
 .hap-wrapper section:nth-of-type(3) time p {
     color: #A6ADB4;
 }
+
 .hap-wrapper section:nth-of-type(4) {
     width: 360px;
     height: 272px;
@@ -357,11 +381,12 @@ time a {
     background-repeat: no-repeat;
 }
 
-.hap-wrapper section:nth-of-type(4) h2{
+.hap-wrapper section:nth-of-type(4) h2 {
     font-size: 16px;
     color: #202124;
     padding-top: 220px;
 }
+
 .hap-wrapper section:nth-of-type(4) time p {
     color: #A6ADB4;
 }
@@ -374,14 +399,17 @@ time a {
     right: 0;
     background-repeat: no-repeat;
 }
-.hap-wrapper section:nth-of-type(5) h2{
+
+.hap-wrapper section:nth-of-type(5) h2 {
     font-size: 16px;
     color: #202124;
     padding-top: 220px;
 }
+
 .hap-wrapper section:nth-of-type(5) time p {
     color: #A6ADB4;
 }
+
 .hap-01 {
     background: url("images/happening-01.png");
 }
@@ -406,23 +434,41 @@ input {
     padding: 10px;
     background-color: #CBD0D3;
 }
+
 footer {
     display: block;
     height: 200px;
     background-color: #A6ADB4;
     color: #CBD0D3;
+    margin-top: 100px;
 }
+
 .footer-wrapper img {
     height: 16px;
     width: auto;
 }
+
 .footer-wrapper {
-    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     align-content: stretch;
 }
-.social-icons ul{
+
+.footer-nav_wrapper {
+    margin-top: 58px;
+    margin-left: 320px;
+}
+
+.footer-nav_wrapper ul {
+    width: 379px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.social-icons ul {
     display: flex;
     justify-content: space-between;
 }
