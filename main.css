@@ -102,7 +102,7 @@ body{
 }
 .morenews {
     max-width: 600px;
-    width: 580px;
+    width: calc(100% - 54.1%);
     height: 600px;
     background-color: #fff;
 }
