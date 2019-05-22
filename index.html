@@ -13,12 +13,12 @@
 
     <a href="header__top-link-logo"><img src="assets/logo.png" alt="LOGO" class="header__top-link-logo__img"></a>
     <nav class="globalnavigation"></nav>
-      <ul class="header__links">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">DISCOVERY</a></li>
-        <li><a href="#">PHOTOS</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
+    <ul class="header__links">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">DISCOVERY</a></li>
+      <li><a href="#">PHOTOS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
     </nav>
     <button><img src="assets/person.png" alt="person" class="header__person-img"></button>
   </header>
@@ -27,12 +27,12 @@
     <!-- TODO セレクタでなるべく工夫すると良いよ -->
     <section class="worldnews">
       <h1 class="worldnews__title">WORLD NEWS</h1>
-      
+
       <p class="worldnews__item__para">
         <strong class="worldnews__item__title">Amazing places in America to visit.</strong>
         For some reason — this country, this city, this neighborhood, this particular street —  is the place you are
-          living a majority of your life in.
-        </p>
+        living a majority of your life in.
+      </p>
       <button class="worldnews__learnmore">LEARN MORE</button>
       <img src="assets/heroImage.png" alt="WORLD NEWS" class="header__worldnews-img">
     </section>
@@ -44,12 +44,12 @@
           <h3>Article title</h3>
           <!-- TODO bodyと書いて、本文という見え方にする -->
           <!--<div class="morenews__item__body">-->
-            <!--<p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>-->
+          <!--<p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>-->
           <!--</div>-->
           <div class="morenews__body">
-          <p>
-            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+            </p>
           </div>
           <time class="morenews__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
         </li>
@@ -57,21 +57,21 @@
           <p class="morenews__category">TECHNOLOGY</p>
           <h3>Article title</h3>
           <div class="morenews__body">
-          <p>
-            Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
-          </p>
-        </div>
+            <p>
+              Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+            </p>
+          </div>
           <time class="morenewsF__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
         </li>
       </ul>
     </section>
-    <div class="wrapper">
+    <div class="sub-containt__wrapper">
       <section class="trending">
-        <header class="trending__title-control">
-          <h2 class="trending__title column--title">TRENDING</h2>
-          <nav class="trending__control">
-            <button>&lt;</button>
-            <button>&gt;</button>
+        <header class="section__title-control">
+          <h2>Trending</h2>
+          <nav class="section__control">
+            <a href="javascript:void(0)" onclick="">&lt;</a>
+            <a href="javascript:void(0)" onclick="">&gt;</a>
           </nav>
         </header>
         <ul class="trending__articles">
@@ -99,7 +99,7 @@
                     dolor
                     sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
                   <time class="times" datatime="2011-11-18T14:54:39.929Z">1h ago</time>
-                </div>>
+                </div>
               </article>
             </a>
           </li>
@@ -107,97 +107,101 @@
             <a class="trending__articles__link">
               <article>
                 <img src="assets/miniThumbnail3.png" alt="" class="trending__articles__link__img">
-                <h3>Morbi eleifend a libero</h3>
-                <p>Lorem ipsum
-                  dolor
-                  sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                <time class="times" datatime="2011-11-18T14:54:39.929Z">3h ago</time>
+                <div class="trending__articles__link__body">
+                  <h3>Morbi eleifend a libero</h3>
+                  <p>Lorem ipsum
+                    dolor
+                    sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h ago</time>
+                </div>
               </article>
             </a>
           </li>
         </ul>
       </section>
       <section class="happening-now">
-        <header class="sectiton__title-control">
+        <header class="section__title-control">
           <h2>HAPPENING NOW</h2>
-          <nav class="happening-now__control">
+          <nav class="section__control">
             <a href="javascript:void(0)" onclick="">&lt;</a>
             <a href="javascript:void(0)" onclick="">&gt;</a>
           </nav>
         </header>
-        <ul class="happening-now__articles happening-now__articles--display_large">
+        <ul class="happening-now__articles">
           <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <p class="happening-now__articles__category">CITY</p>
-                <h3>Large article title</h3>
-                <div class="happening-now__articles__wrapper__body">
-                  <p>Lorem ipsum dolor sit
-                    amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
-                    voluptatum
-                    vis eu, inermis eloquentiam.</p>
-                </div>
-                <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
-                  ago</time>
-              </article>
-            </a>
+            <ul class="happening-now__articles--display_large">
+              <li>
+                <article>
+                  <div class="happening-now__articles__wrapper">
+                    <p>CITY</p>
+                    <h3>Large article title</h3>
+                    <div class="happening-now__articles__wrapper__body">
+                      <p>Lorem ipsum dolor sit
+                        amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+                        voluptatum
+                        vis eu, inermis eloquentiam.</p>
+                    </div>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
+                      ago</time>
+                  </div>
+                  <a href="#"><img src="assets/happenning-main1.png" alt=""></a>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="happening-now__articles__wrapper">
+                    <p>TRAVEL</p>
+                    <h3>Large article title</h3>
+                    <div class="happening-now__articles__wrapper__body">
+                      <p>Lorem ipsum dolor sit
+                        amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+                        voluptatum
+                        vis eu, inermis eloquentiam.</p>
+                    </div>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
+                      ago</time>
+                  </div>
+                  <a href="#"><img src="assets/happening-main2.png" alt=""></a>
+                </article>
+              </li>
+            </ul>
           </li>
           <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <p class="happening-now__articles__category">TRAVEL</p>
-                <h3>Large article title</h3>
-                <div class="happening-now__articles__wrapper__body">
-                  <p>Lorem ipsum dolor sit
-                    amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
-                    voluptatum
-                    vis eu, inermis eloquentiam.</p>
-                </div>
-                <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
-                  ago</time>
-              </article>
-            </a>
-          </li>
-        </ul>
-        <ul class="happening-now__articles happening-now__articles--display_small">
-          <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <div><img src="" alt=""></div>
-                <h3>Small title</h3>
-                <p>
-                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
-                    ago</time>
-                  by <a href="">Worldnews</a>
-                </p>
-              </article>
-            </a>a>
-          </li>
-          <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <div><img src="" alt=""></div>
-                <h3>Small title</h3>
-                <p>
-                  <time class="times" datatime="2011-11-18T14:54:39.929Z">4h
-                    ago</time>
-                  by <a href="">Days</a>
-                </p>
-              </article>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <div><img src="" alt=""></div>
-                <h3>Small title</h3>
-                <p>
-                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
-                    ago</time>
-                  by <a href="">Monica</a>
-                </p>
-              </article>
-            </a>
+            <ul class="happening-now__articles--display_small">
+              <li>
+                <article>
+                  <div><a href="#"><img src="assets/happenning-sub1.png" alt=""></a></div>
+                  <h3><a href="#">Small title</a></h3>
+                  <p>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
+                      ago</time>
+                    by <a href="">Worldnews</a>
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div><a href="#"><img src="assets/happenning-sub2.png" alt=""></a></div>
+                  <h3><a href="#">Small title</a></h3>
+                  <p>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">4h
+                      ago</time>
+                    by <a href="">Days</a>
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div><a href="#"><img src="assets/happening-sub3.png" alt=""></a></div>
+                  <h3><a href="#">Small title</a></h3>
+                  <p>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
+                      ago</time>
+                    by <a href="">Monica</a>
+                  </p>
+                </article>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
