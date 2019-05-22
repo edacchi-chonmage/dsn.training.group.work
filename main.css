@@ -296,6 +296,18 @@ p.article-category {
 }
 
 /* trending */
+@media screen and (min-width:200px) {
+    /*376px以上で適用する内容*/
+    .trending article {
+        width: 327px;
+        height: 308px;
+        margin-top: 40px;
+    }
+    .trending img {
+        width: 327px;
+        height: auto;
+    }
+}
 
 @media screen and (min-width:376px) {
     /*376px以上で適用する内容*/
@@ -303,6 +315,10 @@ p.article-category {
         width: 284px;
         height: 350px;
         margin-left: 40px;
+    }
+    .trending img {
+        width: 284px;
+        height: auto;
     }
 }
 
@@ -312,6 +328,10 @@ p.article-category {
         width: 360px;
         height: 350px;
         margin-left: 40px;
+    }
+    .trending img {
+        width: 360px;
+        height: auto;
     }
 }
 
