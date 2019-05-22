@@ -297,44 +297,44 @@ p.article-category {
 
 /* trending */
 /*376px以上で適用する内容*/
-/* @media screen and (min-width:200px) {
+@media screen and (min-width:200px) {
     
     .trending article {
         width: 327px;
         height: 308px;
         margin-top: 40px;
     }
-    .trending img {
+    .article-wrapper img {
         width: 327px;
         height: auto;
     }
-} */
+}
  /*376px以上で適用する内容*/
-/* @media screen and (min-width:376px) {
+@media screen and (min-width:376px) {
    
     .trending article {
         width: 284px;
         height: 350px;
         margin-left: 40px;
     }
-    .trending img {
+    .article-wrapper img {
         width: 284px;
         height: auto;
     }
-} */
+}
 /*769px以上で適用する内容*/
-/* @media screen and (min-width:769px) {
+@media screen and (min-width:769px) {
     
     .trending article {
         width: 360px;
         height: 350px;
         margin-left: 40px;
     }
-    .trending img {
+    .article-wrapper img {
         width: 360px;
         height: auto;
     }
-} */
+}
 
 .trending article {
     border-radius: 0 0 6px 6px;
