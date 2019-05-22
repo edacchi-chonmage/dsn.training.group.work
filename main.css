@@ -7,6 +7,8 @@
   padding: 0;
   box-sizing: border-box;
  }
+
+
 /* ここからheaderですわよ */
 header {
   height: 50px;
@@ -15,6 +17,45 @@ header {
   justify-content: space-between;
 
 }
+.manu {
+  display: none
+}
+.logo_phone{
+  display: none;
+}
+.profile_phone{
+  display: none;s
+}
+
+@media screen and (max-width: 375px) { 
+  /*　画面サイズ 375pxまで適用　*/
+  .manu {
+    display: block;
+    position: absolute;
+    right: 90%;
+  }
+  ul > li {
+    display: none;
+  }
+  .LOGO {
+    display: none;
+
+  }
+  .logo_phone{
+    display: block;
+    position: absolute;
+    right: 45%;
+
+  }
+  .profile_phone{
+    display: block;
+    position: absolute;
+    right: 5%;
+  }
+
+}
+
+
 header > a {
   padding-top: 15px;
   padding-left: 20px;
