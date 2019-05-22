@@ -9,71 +9,63 @@
 </head>
 
 <body>
-<header>
-  <h1>logo</h1>
-  <!-- TODO navタグを利用すると良い -->
-  <div class="navbar_manu">
-    <ul>
-      <!-- TODO aタグを入れて、リンクにしてあげる -->
-      <!-- TODO 表面に表示される言葉も記入してあげる -->
-      <li class="home"></li>
-      <li class="discovery"></li>
-      <li class="photos"></li>
-      <li class="contact"></li>
-    </ul>
-  </div>
+  <!-- ロゴ画像あとで入れてね！ -->
+  <header>
+    <img class="logo" src="" alt="logo">
+    <img class="icon" src="img/icon.png" alt="icon">
+  </header>
 
-
-  <!-- home</li> -->
-  <!-- <li>discovery</li> -->
-  <!-- <li>photos</li> -->
-  <!-- <li>contact</li> -->
-
-  <!-- TODO imgsrcでなく、src属性 -->
-  <img class="icon" src="img/icon.png" alt="icon">
-</header>
-
-<!-- ここからメインです -->
+  <!-- ここからメインです -->
 
   <main>
     <!-- worldnewsのクラスでバックグラウンドイメージ入れられるそうです -->
     <div class="worldnews">
-      <h2>WORLD NEWS
-      </h2>
-      <p> <strong> Amazing places in America to visit.</strong>For some reason — this country, this city, this
+      <h1>WORLD NEWS</h1>
+      <p>
+        <strong> Amazing places in America to visit.</strong>For some reason — this country, this city, this
         neighborhood, this particular street —  is the place you are living a majority of your life in.
       </p>
-      <button class="LEARN MORE" type="button">
+      <a class="LEARN MORE" type="button">
         LEARN MORE
-      </button>
+      </a>
     </div>
-    <div class="morenews">
+
+    <section class="MORENEWS">
+      <button class="next-topic-left">
+        <img src="">
+      </button>
+      <button class="next-topic-right">
+        <img src="">
+      </button>
+
       <h2>MORE NEWS</h2>
-      <ul>
-        <li>
-          <span>TRAVEL</span>
-          <h3>Article title</h3>
-          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <span>2 min ago</span>
-        </li>
-        <li>
-          <span>TECHNOLOGY</span>
-          <h3>Article title</h3>
-          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-          <!--before擬似要素入れる-->
-          <time datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
-        </li>
-      </ul>
+      <article>
+        <span>TRAVEL</span>
+        <h3>Article title</h3>
+        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+        <!--before擬似要素入れる-->
+        <time datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
+      </article>
+
+      <article>
+        <span>TECHNOLOGY</span>
+        <h3>Article title</h3>
+        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+        <!--before擬似要素入れる-->
+        <time datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
+      </article>
+    </section>
   </main>
 
-  <section>
+  <!--ここからやらない！-->
+    <section>
     <h2>TRENDING</h2>
     <ul>
       <li>
         <h3>Dolore magna aliqua</h3>
         <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
         <img src="img/trending_a.png" alt="trending_a">
-        <!--before擬似要素入れる--><time>2m ago</time>
+        <time>2m ago</time>
       </li>
       <li>
         <h3>Morbi eleifend a libero</h3>
@@ -90,11 +82,11 @@
     </ul>
   </section>
 
-</div>
+  </div>
 
-</main>
+  </main>
 
-<footer>
+  <footer>
 
   </footer>
 </body>

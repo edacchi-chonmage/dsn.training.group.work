@@ -2,3 +2,13 @@
 
 @media screen and (max-width: 640px) {
 }
+
+/* えだっちさんに書いてもらったもの */
+ul > li {
+  margin-left: 20px;
+}
+
+ul > li.profile {
+  margin-left: 30px;
+}
+
