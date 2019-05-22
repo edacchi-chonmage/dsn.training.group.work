@@ -103,6 +103,10 @@ time a{
     text-decoration: underline;
 }
 
+.happening time p{
+    color: #CBD0D3;
+}
+
 
 /* news */
 .top-news img{
@@ -131,56 +135,76 @@ time a{
 }
 
 
+
 /* happening */
 .hap-wrapper {
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    align-content: stretch;
-    
+    height: 900px;
+    position: absolute;
 }
-
-.hap-large {
-    width: 720px;
-}
-
-.hap-small {
-    width: 360px;
-    font-family: Acumin Pro;
-    font-size: 16px;
-    font-weight: bold;
-}
+/* .hap-wrapper section {
+    position: relative;
+} */
 
 .happening {
     font-size: 16px;
     font-family: Helvetica;
     color: #FFFFFF;
+    line-height: 1.6rem;
  }
-
- .happening > h1 {
+ .happening h1 {
     color: #202124;
     font-size: 24px;
     font-weight: bold;
 }
-
-.happening>h3 {
+.happening h2 {
     font-size: 24px;
     font-weight: bold;
+    color: #FFFFFF;
+}
+.article-category {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.article-box {
+    margin-top: 200px;
+    padding: 40px;
 }
 
-
-
- .hap-image-l {
-    margin-top: 40px;
-    widows: 720px;
+.hap-wrapper section:nth-of-type(1) {
+    width: 720px;
     height: 430px;
- }
+    
+}
 
- .hap-image-s {
+.hap-wrapper section:nth-of-type(2) {
+    width: 720px;
     margin-top: 40px;
-    width: 360px;
+    height: 430px;
+}
+
+.hap-wrapper section:nth-of-type(3) {
+    widows: 360px;
     height: 272px;
- }
+    position: relative;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.hap-wrapper section:nth-of-type(4) {
+    widows: 360px;
+    height: 272px;
+    background-repeat: no-repeat;
+}
+.hap-wrapper section:nth-of-type(5) {
+    widows: 360px;
+    height: 272px;
+    background-repeat: no-repeat;
+}
+
 .hap-01 {
     background: url("images/happening-01.png");
 }
@@ -196,12 +220,9 @@ time a{
 .hap-05 {
     background: url("images/happening-05.png");
 }
-.category {
-    padding: 40px;
-}
-.article-box {
-    padding: 40px;
-}
+
+
+
 input {
     padding:10px;
     background-color: #CBD0D3;
@@ -223,20 +244,3 @@ input {
     align-content: stretch;
 }
 
-ul {
-    list-style: none;
-    
-}
-a {
-    color: #CBD0D3;
-}
-
-
-.hap-03 {
-    width: 360px;
-    height: 210px;
-}
-
-footer {
-    display: block;
-}
