@@ -296,8 +296,9 @@ p.article-category {
 }
 
 /* trending */
-@media screen and (min-width:200px) {
-    /*376px以上で適用する内容*/
+/*376px以上で適用する内容*/
+/* @media screen and (min-width:200px) {
+    
     .trending article {
         width: 327px;
         height: 308px;
@@ -307,10 +308,10 @@ p.article-category {
         width: 327px;
         height: auto;
     }
-}
-
-@media screen and (min-width:376px) {
-    /*376px以上で適用する内容*/
+} */
+ /*376px以上で適用する内容*/
+/* @media screen and (min-width:376px) {
+   
     .trending article {
         width: 284px;
         height: 350px;
@@ -320,10 +321,10 @@ p.article-category {
         width: 284px;
         height: auto;
     }
-}
-
-@media screen and (min-width:769px) {
-    /*769px以上で適用する内容*/
+} */
+/*769px以上で適用する内容*/
+/* @media screen and (min-width:769px) {
+    
     .trending article {
         width: 360px;
         height: 350px;
@@ -333,7 +334,7 @@ p.article-category {
         width: 360px;
         height: auto;
     }
-}
+} */
 
 .trending article {
     border-radius: 0 0 6px 6px;
@@ -345,14 +346,14 @@ p.article-category {
     flex-wrap: wrap;
 }
 
-/* .trending article {
+.trending article {
     border-radius: 0 0 6px 6px;
     width: 360px;
     height: 350px;
     background-color: #FFFFFF;
     margin-left: 40px;
 
-} */
+}
 
 .trending article:nth-of-type(1) {
     margin-left: 0;
