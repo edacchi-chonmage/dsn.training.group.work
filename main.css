@@ -65,6 +65,14 @@ h3 {
     justify-content: space-between;
 }
 
+
+.arrows {
+    width: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* time */
 
 time {
@@ -239,6 +247,8 @@ img.user {
     width: 200px;
     padding-top: 40px;
 }
+
+
 
 .more-news {
     z-index: 100;
