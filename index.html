@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="topheader">
     <a href="header__top-link-logo"><img src="assets/logo.png" alt="LOGO" class="header__top-link-logo__img"></a>
     <div class="header__wrapper">
       <nav class="globalnavigation">
@@ -24,8 +24,6 @@
     </div>
   </header>
   <main>
-    <!-- TODO mainとの関連はクラス名に書かなくて良い -->
-    <!-- TODO セレクタでなるべく工夫すると良いよ -->
     <div class="flex_spbw">
       <section class="worldnews">
         <div class="worldnews__items">
@@ -39,33 +37,37 @@
         </div>
       </section>
       <section class="morenews">
-        <h2 class="morenews__columtitle">MORE NEWS</h2>
-        <ul class="morenews__list">
-          <li>
-            <p class="morenews__category">TRAVEL</p>
-            <h3>Article title</h3>
-            <!-- TODO bodyと書いて、本文という見え方にする -->
-            <!--<div class="morenews__item__body">-->
-            <!--<p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>-->
-            <!--</div>-->
-            <div class="morenews__body">
-              <p>
-                Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
-              </p>
-            </div>
-            <time class="morenews__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
-          </li>
-          <li>
-            <p class="morenews__category">TECHNOLOGY</p>
-            <h3>Article title</h3>
-            <div class="morenews__body">
-              <p>
-                Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
-              </p>
-            </div>
-            <time class="morenewsF__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
-          </li>
-        </ul>
+        <div class="morenews__items">
+          <header class="section__title-control">
+            <h2>MORE NEWS</h2>
+            <nav class="section__control">
+              <a href="javascript:void(0)" onclick="">&lt;</a>
+              <a href="javascript:void(0)" onclick="">&gt;</a>
+            </nav>
+          </header>
+          <ul class="morenews__list">
+            <li>
+              <p class="morenews__category">TRAVEL</p>
+              <h3>Article title</h3>
+              <div class="morenews__body">
+                <p>
+                  Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+                </p>
+              </div>
+              <time class="morenews__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
+            </li>
+            <li>
+              <p class="morenews__category">TECHNOLOGY</p>
+              <h3>Article title</h3>
+              <div class="morenews__body">
+                <p>
+                  Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…
+                </p>
+              </div>
+              <time class="morenews__time times" datatime="2011-11-18T14:54:39.929Z">2 min ago</time>
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
     <div class="sub-containt__wrapper">
