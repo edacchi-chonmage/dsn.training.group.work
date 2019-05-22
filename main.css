@@ -41,9 +41,8 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
 }
 .times{
     font-size:13px;
-    font-style:Oblique;
+    font-family:Oblique;
 }
-
 
 /* JSONの範囲 */
 header {
@@ -79,7 +78,7 @@ header {
     outline: none;
     padding: 0;
     appearance: none;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 .header__person > img{
     width: 30px;
@@ -88,10 +87,13 @@ header {
     margin-left: 40px;
 }
 .worldnews{
-    max-width: 1220px;
+    width: 1220px;
     height: 600px;
-    background-image: url(assets/heroImage.png); 
-    background-size: contain;
+    background-image: url(assets/heroImage.png);
+    background-repeat: no-repeat;
+    padding-top: 177px;
+    background-size: cover;
+    background-position: center;
 }
 .morenews {
     max-width: 600px;
@@ -104,22 +106,48 @@ header {
     justify-content: space-between;
 }
 .worldnews__items {
-    width: 660px;
+    width: 54.1%;
     height: 247px;
-    margin-top: 177px;
-    margin-left: 320px;
+    margin-left: 26.22%;
 }
 .worldnews__items > h1, .worldnews__items > p > strong{
     font-size: 24px;
-    font-style: Helvetica;
+    font-family: Helvetica;
     color: #fff; 
 }
-<<<<<<< HEAD
-.worldnews__items > h1 {
-    padding-bottom: 60px;
+.worldnews__items > h1::after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    border-radius: 100%;
+    margin-top: 40px;
 }
-
-
+.worldnews__items > p {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #fff; 
+    font-weight: normal;
+    margin-top: 10px;
+    line-height: 26px;
+    padding-top: 40px;
+}
+.worldnews__items > p > strong{
+    line-height: 10px
+}
+.worldnews__items > button {
+    width: 134px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #FA6980;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #fff; 
+    border-style: none;
+    margin-top: 30px;
+}
 
 /* ここから田島の範囲 */
 .wrapper{
