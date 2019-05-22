@@ -47,13 +47,22 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
 }
 
 /* JSONの範囲 */
-.header__top-link-logo--img{
-    width: 38px;
-    height: 13px;
+<<<<<<< HEAD
+header {
+    width: 1440px;
+    height: 50px;
 }
-.header__worldnews-img{
+.header__top-link-logo__img{
+width: 38px;
+height: 13px;
+}
+.globalnavigation {
+    flex-direction: row;
+}
+.worldnews > img{
     width: 1220px;
     height: 600px;
+    background-image: url(heroImage.png);  
 }
 
 
