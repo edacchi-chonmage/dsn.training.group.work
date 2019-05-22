@@ -49,25 +49,81 @@ body{
     font-style:Oblique;
 }
 
-
-
 /* JSONの範囲 */
 header {
-    width: 1440px;
+    width: 100%;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.header__wrapper {
+    display: flex;
 }
 .header__top-link-logo__img{
-width: 38px;
-height: 13px;
+    width: 38px;
+    height: 13px;
+    margin-top: 20px;
 }
-.globalnavigation {
-    flex-direction: row;
+.globalnavigation > ul {
+    width:  267px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-top: 21px;
 }
-.worldnews > img{
-    width: 1220px;
+.globalnavigation > ul > li > a{
+    text-decoration: none;
+}
+ .header__person {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    border-radius: 50%;
+}
+.header__person > img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.worldnews{
+    max-width: 1220px;
     height: 600px;
-    background-image: url(assets/heroImage.png);  
+
+    background-image: url(assets/heroImage.png); 
+    background-size: contain;
 }
+.morenews {
+    max-width: 600px;
+    width: 580px;
+    height: 600px;
+    background-color: #fff;
+}
+.flex_spbw {
+    display: flex;
+    justify-content: space-between;
+}
+.worldnews__items {
+    width: 660px;
+    height: 247px;
+    margin-top: 177px;
+    margin-left: 320px;
+}
+.worldnews__items > h1, .worldnews__items > p > strong{
+    font-size: 24px;
+    font-style: Helvetica;
+    color: #fff; 
+}
+<<<<<<< HEAD
+.worldnews__items > h1 {
+    padding-bottom: 60px;
+}
+
 
 
 /* ここから田島の範囲 */
