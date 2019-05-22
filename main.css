@@ -106,6 +106,7 @@ body{
     height: 600px;
     background-color: #fff;
 }
+
 .flex_spbw {
     display: flex;
     justify-content: space-between;
@@ -133,11 +134,18 @@ body{
         background-color: #fff;
     }
 }
+@media screen and (max-width: 767px){
+    .flex_spbw{
+        display:block;
+        width:100%;
+    }
+}
 .worldnews__items {
     width: 54.1%;
     height: 100%;
     margin-left: 26.22%;
 }
+
 .worldnews__items > h1, .worldnews__items > p > strong{
     font-size: 24px;
     font-family: Helvetica;
@@ -251,6 +259,27 @@ body{
     width:360px;
     height:360px;
 }
+
+
+@media screen and (max-width: 767px){
+    .trending__articles{
+        display:block;
+    }
+    .trending__articles > li:last-child{
+        display:none;
+    }
+    .trending__articles > li +li{
+        margin-top:40px;
+    }
+    .trending__articles__link > article{
+        min-width:327px;
+        height:308px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1439px){
+
+}
+
 .section__control{
     width:50px;
     display:flex;
@@ -377,7 +406,7 @@ footer{
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1799px){
+@media screen and (min-width: 1440px) and (max-width: 1799px){
     footer{
         padding-left:140px;
         padding-right:140px;
