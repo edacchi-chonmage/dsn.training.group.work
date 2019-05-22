@@ -22,6 +22,11 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
     color: #000000;
     font-family: Helvetica,sans-serif;
 }
+
+body{
+    background-color:#F6F8F9;
+}
+
 .column--title{
     color:#323336;
     font-weight:bold;
@@ -150,27 +155,47 @@ header {
 }
 
 /* ここから田島の範囲 */
-.wrapper{
+.sub-containt__wrapper{
     margin: 0 auto;
     max-width:1160px;
 }
 
-.trending{
+
+.sub-containt__wrapper > section{
+    margin-top: 40px;
+}
+
+.sub-containt__wrapper > section > ul{
     margin-top:40px;
 }
 
-.trending__articles{
-    margin-top:40px;
+.section__title-control{
     display:flex;
     justify-content: space-between;
 }
 
-.trending__articles__item__button{
+.trending__articles{
+    display:flex;
+    justify-content: space-between;
+}
+
+.trending__articles__link > article{
+    border-radius: 6px;
+    background-color: #fff;
     width:360px;
     height:360px;
-    background:none;
-    border:none;
-    border-radius: 6px 6px 0 0;
+}
+.section__control{
+    width:50px;
+    display:flex;
+    justify-content: space-between;
+}
+.section__control > a{
+    text-decoration: none;
+    color:#202124;
+    font-weight: bold;
+    text-align: bottom;
+    opacity:0.3;
 }
 
 .trending__articles__link__img{
@@ -188,4 +213,137 @@ header {
     font-size:13px;
     font-family:"Acumin Pro",Helvetica,sans-serif;
     line-height:23px;
+}
+
+.happening-now__articles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.happening-now__articles--display_large > li > article{
+    width:760px;
+    height:430px;
+    position:relative;
+}
+.happening-now__articles--display_large > li > article > *{
+    position:absolute;
+}
+.happening-now__articles--display_large > li > article > a{
+    width:100%;
+    height:100%;
+    z-index:-100;
+}
+.happening-now__articles--display_large > li > article > a > img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.happening-now__articles--display_large > li + li{
+    margin-top:40px;
+}
+.happening-now__articles--display_small{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:100%;
+}
+.happening-now__articles--display_small > li > article{
+    width:360px;
+}
+
+.happening-now__articles--display_small > li > article > div{
+    width:100%;
+    height:210px;
+    object-fit: contain;
+    border-radius:6px;
+}
+.happening-now__articles--display_small > li > article > h3{
+    margin-top: 20px;
+}
+.happening-now__articles--display_small > li > article > p,
+.happening-now__articles--display_small > li > article > p > a{
+    color:#A6ADB4;
+    font-style:italic;
+    font-size:13px;
+    margin-top:13px;
+}
+
+.happening-now__articles > li > ul > li > article{
+    background-size: cover;
+    border:6px;
+}
+
+.happening-now__articles__wrapper{
+    padding:40px;
+}
+.happening-now__articles__wrapper > p{
+    font-size:16px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color:#fff;
+}
+.happening-now__articles__wrapper > h3{
+    margin-top:232px;
+    font-weight:24px;
+    font-weight:bold;
+    color:#fff;
+}
+.happening-now__articles__wrapper__body{
+    margin-top:10px;
+}
+.happening-now__articles__wrapper__body > p{
+    color: #fff;
+    line-height:26px;
+}
+
+.happening-now__articles__wrapper > time{
+    margin-top:10px;
+    color: #fff;
+}
+
+footer{
+    margin-top:100px;
+    height:200px;
+    padding:56px 320px 60px 320px;
+    background-color: #A6ADB4;
+    display:flex;
+    justify-content: space-between;
+}
+.footer__nav{
+    display:flex;
+    width:379px;
+    justify-content: space-between;
+}
+.footer__nav > a{
+    width:37px;
+}
+.footer__nav > ul{
+    display:flex;
+    width:279px;
+    height:82px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer__nav > ul > li > a{
+    text-decoration: none;
+    font-size:13px;
+    color: #CBD0D3;
+}
+
+.footer__contact > p{
+    font-size:11px;
+}
+
+.footer__socialLinks > ul{
+    display: flex;
+    width:160px;
+    height:16px;
+    justify-content: space-between;
+}
+
+.footer__socialLinks > ul > li > a{
+    width:16px;
 }

@@ -10,7 +10,6 @@
 
 <body>
   <header>
-
     <a href="header__top-link-logo"><img src="assets/logo.png" alt="LOGO" class="header__top-link-logo__img"></a>
     <div class="header__wrapper">
       <nav class="globalnavigation">
@@ -69,13 +68,13 @@
         </ul>
       </section>
     </div>
-    <div class="wrapper">
+    <div class="sub-containt__wrapper">
       <section class="trending">
-        <header class="trending__title-control">
-          <h2 class="trending__title column--title">TRENDING</h2>
-          <nav class="trending__control">
-            <button>&lt;</button>
-            <button>&gt;</button>
+        <header class="section__title-control">
+          <h2>Trending</h2>
+          <nav class="section__control">
+            <a href="javascript:void(0)" onclick="">&lt;</a>
+            <a href="javascript:void(0)" onclick="">&gt;</a>
           </nav>
         </header>
         <ul class="trending__articles">
@@ -103,7 +102,7 @@
                     dolor
                     sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
                   <time class="times" datatime="2011-11-18T14:54:39.929Z">1h ago</time>
-                </div>>
+                </div>
               </article>
             </a>
           </li>
@@ -111,97 +110,101 @@
             <a class="trending__articles__link">
               <article>
                 <img src="assets/miniThumbnail3.png" alt="" class="trending__articles__link__img">
-                <h3>Morbi eleifend a libero</h3>
-                <p>Lorem ipsum
-                  dolor
-                  sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                <time class="times" datatime="2011-11-18T14:54:39.929Z">3h ago</time>
+                <div class="trending__articles__link__body">
+                  <h3>Morbi eleifend a libero</h3>
+                  <p>Lorem ipsum
+                    dolor
+                    sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h ago</time>
+                </div>
               </article>
             </a>
           </li>
         </ul>
       </section>
       <section class="happening-now">
-        <header class="sectiton__title-control">
+        <header class="section__title-control">
           <h2>HAPPENING NOW</h2>
-          <nav class="happening-now__control">
+          <nav class="section__control">
             <a href="javascript:void(0)" onclick="">&lt;</a>
             <a href="javascript:void(0)" onclick="">&gt;</a>
           </nav>
         </header>
-        <ul class="happening-now__articles happening-now__articles--display_large">
+        <ul class="happening-now__articles">
           <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <p class="happening-now__articles__category">CITY</p>
-                <h3>Large article title</h3>
-                <div class="happening-now__articles__wrapper__body">
-                  <p>Lorem ipsum dolor sit
-                    amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
-                    voluptatum
-                    vis eu, inermis eloquentiam.</p>
-                </div>
-                <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
-                  ago</time>
-              </article>
-            </a>
+            <ul class="happening-now__articles--display_large">
+              <li>
+                <article>
+                  <div class="happening-now__articles__wrapper">
+                    <p>CITY</p>
+                    <h3>Large article title</h3>
+                    <div class="happening-now__articles__wrapper__body">
+                      <p>Lorem ipsum dolor sit
+                        amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+                        voluptatum
+                        vis eu, inermis eloquentiam.</p>
+                    </div>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
+                      ago</time>
+                  </div>
+                  <a href="#"><img src="assets/happenning-main1.png" alt=""></a>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="happening-now__articles__wrapper">
+                    <p>TRAVEL</p>
+                    <h3>Large article title</h3>
+                    <div class="happening-now__articles__wrapper__body">
+                      <p>Lorem ipsum dolor sit
+                        amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
+                        voluptatum
+                        vis eu, inermis eloquentiam.</p>
+                    </div>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
+                      ago</time>
+                  </div>
+                  <a href="#"><img src="assets/happening-main2.png" alt=""></a>
+                </article>
+              </li>
+            </ul>
           </li>
           <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <p class="happening-now__articles__category">TRAVEL</p>
-                <h3>Large article title</h3>
-                <div class="happening-now__articles__wrapper__body">
-                  <p>Lorem ipsum dolor sit
-                    amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit
-                    voluptatum
-                    vis eu, inermis eloquentiam.</p>
-                </div>
-                <time class="times" datatime="2011-11-18T14:54:39.929Z">2m
-                  ago</time>
-              </article>
-            </a>
-          </li>
-        </ul>
-        <ul class="happening-now__articles happening-now__articles--display_small">
-          <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <div><img src="" alt=""></div>
-                <h3>Small title</h3>
-                <p>
-                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
-                    ago</time>
-                  by <a href="">Worldnews</a>
-                </p>
-              </article>
-            </a>a>
-          </li>
-          <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <div><img src="" alt=""></div>
-                <h3>Small title</h3>
-                <p>
-                  <time class="times" datatime="2011-11-18T14:54:39.929Z">4h
-                    ago</time>
-                  by <a href="">Days</a>
-                </p>
-              </article>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="happening-now__articles__link">
-              <article class="happening-now__articles__item">
-                <div><img src="" alt=""></div>
-                <h3>Small title</h3>
-                <p>
-                  <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
-                    ago</time>
-                  by <a href="">Monica</a>
-                </p>
-              </article>
-            </a>
+            <ul class="happening-now__articles--display_small">
+              <li>
+                <article>
+                  <div><a href="#"><img src="assets/happenning-sub1.png" alt=""></a></div>
+                  <h3><a href="#">Small title</a></h3>
+                  <p>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
+                      ago</time>
+                    by <a href="">Worldnews</a>
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div><a href="#"><img src="assets/happenning-sub2.png" alt=""></a></div>
+                  <h3><a href="#">Small title</a></h3>
+                  <p>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">4h
+                      ago</time>
+                    by <a href="">Days</a>
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div><a href="#"><img src="assets/happening-sub3.png" alt=""></a></div>
+                  <h3><a href="#">Small title</a></h3>
+                  <p>
+                    <time class="times" datatime="2011-11-18T14:54:39.929Z">3h
+                      ago</time>
+                    by <a href="">Monica</a>
+                  </p>
+                </article>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
@@ -210,7 +213,7 @@
 
   <footer>
     <nav class="footer__nav">
-      <a href="" class="footer__nav__logo"><img src="assets/LOGO.png" alt="LOGO"></a>
+      <a href="#" class="footer__nav__logo"><img src="assets/LOGO.png" alt="LOGO"></a>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Discovery</a></li>
@@ -234,16 +237,16 @@
       <p>Stay in touch with us for the freshest products!</p>
     </section>
     <section class="footer__socialLinks">
-      <ul class="footer__socialLinks__list">
+      <ul>
         <li>
           <a href="#" class="footer__socialLinks__link">
             <img src="assets/instagram.png" alt="instagramでシェア">
-            <a>
+          </a>
         </li>
         <li>
           <a href="#" class="footer__socialLinks__link">
             <img src="assets/twitter.png" alt="twitterでシェア">
-            <a>
+          </a>
         </li>
         <li>
           <a href="#" class="footer__socialLinks__link">
