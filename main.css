@@ -3,12 +3,12 @@
 
 @media screen and (max-width: 640px) {}
 
+
+/* all */
 * {
     margin: 0;
     padding: 0;
 }
-
-/* all */
 
 body {
     margin: 0 auto;
@@ -64,7 +64,6 @@ h3 {
 
 time {
     width: 66px;
-    align-items: center;
 }
 
 time::before {
@@ -76,9 +75,12 @@ time::before {
 time p {
     display: inline-block;
     margin: 0;
+    padding-left: 10px;
     font-size: 13px;
     color: #A6ADB4;
     font-style: oblique;
+    vertical-align: 3px;
+
 }
 
 time a {
@@ -90,15 +92,18 @@ time a {
 header {
     width: 100vw;
     height: 50px;
-    display: -webkit-inline-flex;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 }
 
+.nav-items{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
 nav>ul {
-    display: -webkit-inline-flex;
-    display: inline-flex;
+    display: flex;
 }
 
 li {
@@ -146,7 +151,6 @@ img.user {
     color: #FFFFFF;
 }
 
-
 .top-news img {
     display: inline-block;
 }
@@ -161,15 +165,17 @@ img.user {
 }
 
 .top-news h1:after {
-    border-bottom: solid 2px #FFFFFF;
+    content: "";
+    background-color: #FFFFFF;
+    /* border-bottom: solid 2px #FFFFFF; */
     border-radius: 1px;
     /* 線幅の半分 */
-    content: "";
+    
     display: block;
-    height: 10px;
+    height: 1px;
     /* 線幅 */
     width: 200px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .top-news h2 {
@@ -178,27 +184,6 @@ img.user {
 }
 
 .top-news_wrapper {
-    width: 660px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.more-news h1:after {
-    border-bottom: solid 2px #000000;
-    border-radius: 1px;
-    /* 線幅の半分 */
-    content: "";
-    display: block;
-    height: 10px;
-    /* 線幅 */
-    width: 200px;
-    padding-top: 40px;
-}
-
-.more-news_wrapper {
     width: 660px;
     position: absolute;
     top: 50%;
@@ -228,12 +213,51 @@ img.user {
 .top-news p {
     margin-top: 10px;
 }
+.more-news h1{
+    color: #000000;
+}
+.more-news h2{
+    font-size: 16px;
+}
+.more-news p{
+    color: #A6ADB4;
+}
+.title{
+    display: -webkit-flex;
+    display: flexbox;
+}
+.title:after {
+    border-bottom: solid 2px #000000;
+    border-radius: 1px;
+    /* 線幅の半分 */
+    content: "";
+    display: block;
+    height: 10px;
+    /* 線幅 */
+    width: 200px;
+    padding-top: 40px;
+}
 
 .more-news {
+    z-index: 100;
+    position: relative;
     background-color: #FFFFFF;
     width: 580px;
 }
 
+.more-news_wrapper {
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+p.article-category{
+    font-size: 16px;
+    color: #FA6980;
+    padding: 0;
+}
 
 /* happening */
 
@@ -241,22 +265,26 @@ img.user {
     height: 900px;
     position: relative;
 }
+
 .happening {
     font-size: 16px;
     font-family: Helvetica;
     color: #FFFFFF;
     line-height: 1.6rem;
  }
+
  .happening h1 {
     color: #202124;
     font-size: 24px;
     font-weight: bold;
 }
+
 .happening h2 {
     font-size: 24px;
     font-weight: bold;
     color: #FFFFFF;
 }
+
 .article-category {
     font-size: 16px;
     font-weight: bold;
@@ -264,10 +292,12 @@ img.user {
     padding-left: 40px;
     padding-top: 40px;
 }
+
 .article-box {
     margin-top: 170px;
     padding: 40px;
 }
+
 .happening time p {
     color: #CBD0D3;
 }
@@ -277,6 +307,7 @@ img.user {
 time a {
     color: #A6ADB4;
 }
+
 .hap-wrapper section:nth-of-type(1) {
     width: 720px;
     height: 430px;
@@ -287,6 +318,8 @@ time a {
     margin-top: 40px;
     height: 430px;
 }
+
+
 .hap-wrapper section:nth-of-type(3) {
     width: 360px;
     height: 272px;
@@ -311,6 +344,7 @@ time a {
     right: 0;
     background-repeat: no-repeat;
 }
+
 .hap-wrapper section:nth-of-type(4) h2{
     font-size: 16px;
     color: #202124;
@@ -319,6 +353,7 @@ time a {
 .hap-wrapper section:nth-of-type(4) time p {
     color: #A6ADB4;
 }
+
 .hap-wrapper section:nth-of-type(5) {
     width: 360px;
     height: 272px;
@@ -375,5 +410,3 @@ footer {
     flex-direction: row;
     align-content: stretch;
 }
-
-
