@@ -9,143 +9,169 @@
   <link rel="stylesheet" href="https://use.typekit.net/svf5vwk.css">
 </head>
 
-
-<!-- ここを更新する -->
 <body>
   <header>
-    <img src="images/LOGO-header.png" alt="logo">
+    <img class="logo" src="images/LOGO-header.png" alt="logo">
     <nav>
       <ul>
-        <li>HOME</li>
-        <li>DISCOVERY</li>
-        <li>PHOTOS</li>
-        <li>CONTACT</li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">DISCOVERY</a></li>
+        <li><a href="#">PHOTOS</a></li>
+        <li><a href="#">CONTACT</a></li>
       </ul>
     </nav>
-    <img src="images/user-icon.png" alt="user-icon">
+    <img class="user" src="images/user-icon.png" alt="user-icon">
   </header>
 
   <main>
     <section class="news">
       <section class="top-news">
-        <h1>WORLD NEWS</h1>
-        <hr>
-        <article>
-          <h3>Amazing places in America to visit.</h3>
-          <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you
-            are living a majority of your life in.</p>
-        </article>
-        <button><a href="#">LEARN MORE</a></button>
+        <div class="top-news_wrapper">
+          <h1>WORLD NEWS</h1>
+
+          <article>
+            <h2>Amazing places in America to visit.</h2>
+            <p>For some reason — this country, this city, this neighborhood, this particular street —  is the place you
+              are living a majority of your life in.</p>
+          </article>
+          <button><a href="#">LEARN MORE</a></button>
+        </div>
       </section>
       <section class="more-news">
-        <h1>MORE NEWS</h1>
+        <div class="more-news_wrapper">
+          <h1>MORE NEWS</h1>
+          <div>
+            <button><img src="images/arrow-back.png" alt="arrow-back"></button>
+            <button><img src="images/arrow.png" alt="arrow"></button>
+          </div>
+          <section>
+            <h2>TRAVEL</h2>
+            <article>
+              <h3>Article title</h3>
+              <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+              <time>
+                <p>2 min ago</p>
+              </time>
+            </article>
+          </section>
+          <section>
+            <h2>TECHNOLOGY</h2>
+            <article>
+              <h3>Article title</h3>
+              <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+              <time>
+                <p>2 min ago</p>
+              </time>
+            </article>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <div class="wrapper">
+      <section class="trending">
+        <h1>TRENDING</h1>
         <div>
           <button><img src="images/arrow-back.png" alt="arrow-back"></button>
           <button><img src="images/arrow.png" alt="arrow"></button>
         </div>
-        <hr>
-        <section>
-          <h2>TRAVEL</h2>
-          <article>
-            <h3>Article title</h3>
-            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-            <time><p>2 min ago</p></time>
-          </article>
-        </section>
-        <section>
-          <h2>TECHNOLOGY</h2>
-          <article>
-            <h3>Article title</h3>
-            <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-            <time><p>2 min ago</p></time>
-          </article>
-        </section>
+        <article>
+          <h3>Dolore magna aliqua</h3>
+          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <div class="time-tag">
+            <time>
+              <p>2 min ago</p>
+            </time>
+        </article>
+
+        <article>
+          <h3>Morbi eleifend a libero</h3>
+          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <time>
+            <p>2 min ago</p>
+          </time>
+        </article>
+
+        <article>
+          <h3>Morbi eleifend a libero</h3>
+          <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+          <time>
+            <p>2 min ago</p>
+          </time>
+        </article>
       </section>
-    </section>
-    <section class="trending">
-      <h1>TRENDING</h1>
-      <div>
-        <button><img src="images/arrow-back.png" alt="arrow-back"></button>
-        <button><img src="images/arrow.png" alt="arrow"></button>
-      </div>
-      <article>
-        <h3>Dolore magna aliqua</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <div class="time-tag">
-            <time><p>2 min ago</p></time>
-      </article>
-
-      <article>
-        <h3>Morbi eleifend a libero</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <time><p>2 min ago</p></time>
-      </article>
-
-      <article>
-        <h3>Morbi eleifend a libero</h3>
-        <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-        <time><p>2 min ago</p></time>
-      </article>
-    </section>
 
 
-    <section class="happening">
-      <h1>HAPPENING NOW</h1>
-      <!-- 矢印入れようネ -->
-      <div class="hap-wrapper">
-        <div class="hap-large">
+      <section class="happening">
+        <h1>HAPPENING NOW</h1>
+        <!-- 矢印入れようネ -->
+        <div class="hap-wrapper">
+          <div class="hap-large">
 
-          <section class="hap-image-l hap-01">
-            <div class="category"><h2>CITY</h2></div>
-            <div class="article-box">
-            <article>
-              <h3>Large article title</h3>
-              <p>
-                Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
-                Affert
-                detraxit voluptatum vis eu, inermis eloquentiam.
-              </p>
-            </article>
-            <time><p>2 min ago</p></time>
-          </section>
-
-          <section class="hap-image-l hap-02">
-            <div class="category"><h2>TRAVEL</h2></div>
-             <div class="article-box">
-              <article>
-                <h3>Large article title</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
-                  Affert
-                  detraxit voluptatum vis eu, inermis eloquentiam.
-                 </p>
-               </article>
-                  <time><p>2 min ago</p></time>
-          </section>
-
-        </div>
-        <div>
-          <section class="hap-image-s hap-03">
-            <h3>Small title</h3>
-            <div class="">
-            </div>
-          </section>
-
-          <section class=" hap-image-s hap-04">
-            <h3>Small title</h3>
-             <div class="time-tag">
-                <time><p>2 min ago</p></time>
-          </section>
-
-          <section class="hap-image-s hap-05">
-            <h3>Small title</h3>
-             <div class="time-tag">
-                <time><p>2 min ago</p></time>
+            <section class="hap-image-l hap-01">
+              <div class="category">
+                <h2>CITY</h2>
+              </div>
+              <div class="article-box">
+                <article>
+                  <h3>Large article title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                    Affert
+                    detraxit voluptatum vis eu, inermis eloquentiam.
+                  </p>
+                </article>
+                <time>
+                  <p>2 min ago</p>
+                </time>
             </section>
-        </div>
 
-    </section>
-    <!-- bandoここまで -->
+            <section class="hap-image-l hap-02">
+              <div class="category">
+                <h2>TRAVEL</h2>
+              </div>
+              <div class="article-box">
+                <article>
+                  <h3>Large article title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                    Affert
+                    detraxit voluptatum vis eu, inermis eloquentiam.
+                  </p>
+                </article>
+                <time>
+                  <p>2 min ago</p>
+                </time>
+            </section>
+
+          </div>
+          <div>
+            <section class="hap-image-s hap-03">
+              <h3>Small title</h3>
+              <div class="">
+              </div>
+            </section>
+
+            <section class=" hap-image-s hap-04">
+              <h3>Small title</h3>
+              <div class="time-tag">
+                <time>
+                  <p>2 min ago</p>
+                </time>
+            </section>
+
+            <section class="hap-image-s hap-05">
+              <h3>Small title</h3>
+              <div class="time-tag">
+                <time>
+                  <p>2 min ago</p>
+                </time>
+            </section>
+          </div>
+
+      </section>
+      <!-- bandoここまで -->
+    </div><!-- wrapper -->
   </main>
 
 
@@ -160,7 +186,7 @@
         <li> <a href="#">Contact</li>
       </ul>
       <ul>
-        <li ><a href="#">About</li>
+        <li><a href="#">About</li>
         <li> <a href="#">Help</li>
         <li> <a href="#">Terms</li>
         <li> <a href="#">Guidlines</li>
@@ -171,18 +197,18 @@
         <li> <a href="#">Integrations</li>
         <li> <a href="#">Careers</li>
       </ul>
-     <div>
-       <input type="text" name="email" placeholder="Email">
-       <p>Stay in touch with us for the freshest products!</p>
+      <div>
+        <input type="text" name="email" placeholder="Email">
+        <p>Stay in touch with us for the freshest products!</p>
       </div>
       <div>
         <ul class="social-icons">
-            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
-            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
-            <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img src="images/web.png" alt="web"></a></li>
+          <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+          <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+          <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+          <li><a href="#"><img src="images/web.png" alt="web"></a></li>
         </ul>
-       
+
       </div>
     </div>
   </footer>
