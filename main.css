@@ -2,24 +2,21 @@
 
 @media screen and (max-width: 640px) {
 }
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  body {
+body {
     color: #000000;
-    font-family: YuGothic;
+    font-family: Helvetica;
     line-height: 1.8;
-  }
-.globalnav{
-    display: -webkit-flex;
-    display: flex;
- }
-=======
->>>>>>> beb6a2b0a41ed77e61ec56c11af05ff241972eaf
+     min-height: 100vh;
+     position: relative;Ï
+     padding-bottom: 200px;
+     box-sizing: border-box;
+    }
 
 body > header{
     width: 100%;
@@ -69,6 +66,9 @@ h1,h2,h3 {
     background-color: #A6ADB4;
     font-size: 13px;
     color: #CBD0D3; 
+    padding: 60px 0;
+    position: absolute;
+    bottom: 0; 
  }
  .FooterMenu{
     display: -webkit-flex;
