@@ -60,6 +60,11 @@ h3 {
     color: #202124;
 }
 
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* time */
 
 time {
@@ -100,10 +105,11 @@ header {
 .nav-items{
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-right: 20px; 
 }
 nav>ul {
     display: flex;
+    padding-right: 40px;
 }
 
 li {
@@ -135,7 +141,6 @@ img.logo {
 img.user {
     width: 30px;
     height: 30px;
-    padding: 10px;
 }
 
 /* news */
@@ -222,11 +227,8 @@ img.user {
 .more-news p{
     color: #A6ADB4;
 }
-.title{
-    display: -webkit-flex;
-    display: flexbox;
-}
-.title:after {
+
+.news .title:after {
     border-bottom: solid 2px #000000;
     border-radius: 1px;
     /* 線幅の半分 */
@@ -409,4 +411,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-content: stretch;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: space-between;
 }
