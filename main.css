@@ -241,8 +241,12 @@ time {
   }
   /*worldnews*/
   .worldnews{
-    padding: 0;
+    padding-top:40px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 40px;
     width: 100vw;
+    height: 388px;
   }
   .worldnews>p {
     width:auto;
@@ -257,10 +261,12 @@ time {
   padding-left:24px;
   padding-right: 24px;
 }
-article>p {
+article > p {
   width: auto;
 }
 time {
   margin-top: 10px;
 }
+.articlecontents{
+  width:auto;
 }
