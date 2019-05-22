@@ -60,6 +60,17 @@ h3 {
     color: #202124;
 }
 
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+    width: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* time */
 
 time {
@@ -222,11 +233,8 @@ img.user {
 .more-news p{
     color: #A6ADB4;
 }
-.title{
-    display: -webkit-flex;
-    display: flexbox;
-}
-.title:after {
+
+.news .title:after {
     border-bottom: solid 2px #000000;
     border-radius: 1px;
     /* 線幅の半分 */
@@ -237,6 +245,8 @@ img.user {
     width: 200px;
     padding-top: 40px;
 }
+
+
 
 .more-news {
     z-index: 100;
