@@ -55,8 +55,6 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
     width: 1220px;
     height: 600px;
 }
-.header__links{
-}
 
 
 /* ここから田島の範囲 */
@@ -83,17 +81,17 @@ body,h1,h2,h3,h4,h5,p,a,strong,small,li{
     border-radius: 6px 6px 0 0;
 }
 
-.trending__articles__item__button__section__img{
+.trending__articles__link__img{
     height:180px;
     object-fit: contain;
 }
 
-.trending__articles__item__button__section__texts-wrapper{
+.trending__articles__link__body{
     padding:40px 40px 0 40px;
     text-align:left;
 }
 
-.trending__articles__item__button__section__discription{
+.trending__articles__link__body > p{
     margin-top:10px;
     font-size:13px;
     font-family:"Acumin Pro",Helvetica,sans-serif;
