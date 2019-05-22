@@ -1,147 +1,171 @@
-@charset 'utf-8';
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
-
-body {
-    color: #000000;
-    font-family: Helvetica;
-    line-height: 1.8;
-    min-height: 100vh;
-    margin: 0;
-    display: -webkit-flex;
-    display: flex;
-    flex-flow: column;
-}
-
-body>header {
-    width: 100％;
-    height: 50px;
-    background-color: #F6F8F9;
-    font-size: 11px;
-    color: #343638;
-}
-
-.globalnav {
-    display: -webkit-flex;
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    color: #343638;
-}
-
-.globalnavSP {
-    display: none;
-}
-
-main {
-    background: #FFFFFF;
-    flex: 1;
-}
-
-p {
-    font-family: "Acumin Pro", Arial, Helvetica, sans-serif;
-    color: #A6ADB4;
-}
-
-h1,
-h2,
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-    color: #202124;
-}
-
-x .World_News_contents {
-    display: block;
-    z-index: 1000;
-    width: 660px;
-    height: 247px;
-    margin-top: -375px;
-}
-
-.World_News_contents>h1,
-h2 {
-    font-size: 24px;
-    color: #ffffff;
-}
-
-.World_News_contents>p {
-    font-size: 16px;
-    color: #ffffff;
-}
-
-.World_News>img {
-    width: 1220px;
-    height: 600px;
-    max-width: 100%;
-    height: auto;
-}
-
-.World_News_contents>article {
-    position: relative;
-}
-
-.More_News>h2 {
-    color: #202124;
-}
-
-.trending_contents>img {
-    width: 360px;
-}
-
-body>footer {
-    width: 100％;
-    height: 200px;
-    background-color: #A6ADB4;
-    font-size: 13px;
-    color: #CBD0D3;
-    padding: 60px 0;
-}
-
-.container {
-    display: -webkit-flex;
-    display: flex;
-    width: 1160px;
-    align-items: flex-start;
-    text-decoration: none;
-    color: #CBD0D3;
-}
-
-.logo {
-    flex: 40px;
-}
-
-.FooterMenu {
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 283px;
-}
-
-.FooterMenu>* {
-    width: 80px;
-}
-
-footer>input {
-    flex: 500px;
-}
-
-.SNS {
-    flex: 200px;
-}
-
-@media screen and (max-width: 700px) {
-    .logo {
-        text-align: center
-    }
-    .globalnav {
-        display: none;
-    }
-    .globalnavSP {
-        display: block;
-    }
-}
+                @charset 'utf-8';
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: content-box;
+            }
+            
+            body {
+                color: #000000;
+                font-family: Helvetica;
+                line-height: 1.8;
+                min-height: 100vh;
+                margin: 0;
+                display: -webkit-flex;
+                display: flex;
+                flex-flow: column;
+            }
+            
+            body>header {
+                width: 100％;
+                height: 50px;
+                background-color: #F6F8F9;
+                font-size: 11px;
+                color: #343638;
+            }
+            
+            .globalnav {
+                display: -webkit-flex;
+                display: flex;
+                list-style: none;
+                text-decoration: none;
+                color: #343638;
+            }
+            
+            .globalnavSP {
+                display: none;
+            }
+            
+            .menuicon {
+                display: none;
+            }
+            
+            .profile {
+                display: none;
+            }
+            
+            main {
+                background: #FFFFFF;
+                flex: 1;
+            }
+            
+            p {
+                font-family: "Acumin Pro", Arial, Helvetica, sans-serif;
+                color: #A6ADB4;
+            }
+            
+            h1,
+            h2,
+            h3 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: bold;
+                color: #202124;
+            }
+            
+            x .World_News_contents {
+                display: block;
+                z-index: 1000;
+                width: 660px;
+                height: 247px;
+                margin-top: -375px;
+            }
+            
+            .World_News_contents>h1,
+            h2 {
+                font-size: 24px;
+                color: #ffffff;
+            }
+            
+            .World_News_contents>p {
+                font-size: 16px;
+                color: #ffffff;
+            }
+            
+            .World_News>img {
+                width: 1220px;
+                height: 600px;
+                max-width: 100%;
+                height: auto;
+            }
+            
+            .World_News_contents>article {
+                position: relative;
+            }
+            
+            .More_News>h2 {
+                color: #202124;
+            }
+            
+            .trending_contents>img {
+                width: 360px;
+            }
+            
+            body>footer {
+                width: 100％;
+                height: 200px;
+                background-color: #A6ADB4;
+                font-size: 13px;
+                color: #CBD0D3;
+                padding: 60px 0;
+            }
+            
+            .container {
+                display: -webkit-flex;
+                display: flex;
+                width: 1160px;
+                align-items: flex-start;
+                text-decoration: none;
+                color: #CBD0D3;
+            }
+            
+            .footerlogo {
+                flex: 40px;
+            }
+            
+            .FooterMenu {
+                display: -webkit-flex;
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                width: 283px;
+            }
+            
+            .FooterMenu>* {
+                width: 80px;
+            }
+            
+            footer>input {
+                flex: 500px;
+            }
+            
+            .SNS {
+                flex: 200px;
+            }
+            
+            @media screen and (max-width: 700px) {
+                .globalnavContainer {
+                    display: -webkit-flex;
+                    display: flex;
+                }
+                .logo {
+                    flex: 1;
+                    order: 2;
+                }
+                .globalnav {
+                    display: none;
+                }
+                .globalnavSP {
+                    display: block;
+                    flex: 1;
+                }
+                .menuicon {
+                    display: block;
+                    flex: 1;
+                    order: 1;
+                }
+                .profile {
+                    display: block;
+                    flex: 1;
+                    width: 15px;
+                    order: 3;
+                }
