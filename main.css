@@ -7,66 +7,64 @@
 /* } */
 
 
-p {
-    font-family: 'Helvetica';
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 60px;
-}
-.card_title {
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.travel {
-    color: #FA6980;
-}
-
-.technology {
-    color: #FA6980;
-
-}
-
-
-
 @media screen and ( max-width: 375px) {
 
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header > p{
+        font-size: 13px;
+        color: #FA6980;
+        font-weight: bold;
+        display: flex;
+        display: none;
+
+    }
+
+    .nav ul li{ 
+        margin-left: auto;
+        display: inline;
+        padding: 20px;	
+        font-size: 11px;
+        font-weight: bold;
+        color: #343638;
+        opacity: 0.5;
+        display: none;
+     } 
+
+    .nav ul li.home {
+        opacity: 1;
+        display: none;
+    }
+
+    h1,h2 {
+        margin-top: -360px;
+        margin-left: 320px;
+        font-weight: bold;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+
+.header img {
+    overflow: hidden;
+    position: relative;
+    height: 368px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.header {
-    margin: 0px
-}
-
-.main_img img {
-/*親要素のwidthを1800pxに*/
-width: 375px;
-height: 388px;
-margin-left: 0px;
+.main_text {
+    position: relative;
 }
 
 p {
     font-family: 'Helvetica';
 }
 
-h1 {
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: -360px;
-    margin-left: 13px;
-    color: white;
-
-}
-
-.hr {
-    margin-left: 13px;
-    margin-top: -360px;
-    height: 1px;
-    border: none;
-    border-top: 3px　color white solid;
-}
 .main_text {
     color: white;
     font-size: 15px;
@@ -120,5 +118,8 @@ h1 {
     margin-left: px;
 }
 
+
+
+ 
 
 
