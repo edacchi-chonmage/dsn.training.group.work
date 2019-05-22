@@ -83,6 +83,7 @@ h2{
 }
 
 .MORE_NEWS{
+
   margin-top: 90px;
   margin-left: 100px;
 }
@@ -125,12 +126,12 @@ h2{
   }
 
   nav {
-    　text-align: center;
+    text-align: center;
   }
 
   　 nav ul {
-    　margin: 0;
-    　padding: 0;
+    margin: 0;
+    padding: 0;
   }
 
   nav ul li {
