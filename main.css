@@ -1,24 +1,5 @@
 @charset 'utf-8';
 
-<<<<<<< HEAD
-/* @media screen and (max-width: 479px) {
-}*/
-
-header.png {
-    250px
-}
-
-header {
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 24px;
-
-
-}
-
-.title {
-    font-family: Helvetica, sans-serif, Arial;
-    font-size: 24px;
-=======
 /* @media screen and ( max-width: 375px) { */
 /* } */
 
@@ -30,6 +11,3 @@ h1 {
 }
 
 p.pink1 {
-
->>>>>>> 01e0a066433069ed8d0cadeb908e7df77e10db7f
-}
