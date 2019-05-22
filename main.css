@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 640px) {
 }
 * {
     margin: 0;
@@ -12,11 +12,13 @@ body {
     color: #000000;
     font-family: Helvetica;
     line-height: 1.8;
-     min-height: 100vh;
-     position: relative;Ï
-     padding-bottom: 200px;
-     box-sizing: border-box;
-    }
+    min-height: 100vh;
+    margin: 0; 
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column;
+    
+}
 
 body > header{
     width: 100%;
@@ -30,6 +32,10 @@ body > header{
     display: flex;
     list-style: none;
  }
+ main {
+    background: #F6F8F9;
+    flex: 1;
+}
 
  p{
      font-family:  "Acumin Pro",Arial, Helvetica, sans-serif;
@@ -39,7 +45,7 @@ h1,h2,h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
 }
-.World_News_contents{
+.World_News{
     width: 660px;
     height: 247px;
 }
@@ -53,7 +59,6 @@ h1,h2,h3 {
 
  .World_News > article{
     max-width: 660px;
-    position: relative;
 
  }
 
@@ -68,8 +73,6 @@ h1,h2,h3 {
     font-size: 13px;
     color: #CBD0D3; 
     padding: 60px 0;
-    position: absolute;
-    bottom: 0; 
  }
  .FooterMenu{
     display: -webkit-flex;
